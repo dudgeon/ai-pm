@@ -28,6 +28,19 @@ Discover → Capture (unread) → Read → Process → Knowledge Base
 4. **Process**: Extract discrete ideas into knowledge entries with source lineage
 5. **Synthesize**: Knowledge entries accumulate citations from multiple sources over time
 
+### Source Types
+
+| Type | Origin | What it is | Processing |
+|------|--------|------------|------------|
+| `article` | External | Blog post, essay | Full reading lifecycle |
+| `video` | External | YouTube, conference talk | Full reading lifecycle |
+| `podcast` | External | Audio transcript/notes | Full reading lifecycle |
+| `newsletter` | External | Lenny's, Substack, etc. | Full reading lifecycle |
+| `tweet-thread` | External | X/Twitter thread | Full reading lifecycle |
+| `book-chapter` | External | Book excerpt | Full reading lifecycle |
+| `organic` | User-authored | Essays, case studies, reflections | User decides when to process — these are drafts that may still be evolving |
+| `note` | User-authored | Quick idea, nascent technique, learning goal | Lighter capture (no Raw Content needed), don't elaborate beyond what's stated |
+
 ### Source Files (`sources/`)
 
 Each source is a markdown file with archived content, reading status, and extracted ideas. See `templates/source.md`.
@@ -41,6 +54,44 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 **Status lifecycle**: `draft` → `solid` → `canonical`
 
 **Entry types**: `technique`, `mental-model`, `insight`
+
+### System Flow
+
+```mermaid
+flowchart TD
+    A["Brain inbox save\n(link, text, or quick note)"] --> B["Inbox triage\n(route by project tag)"]
+    B --> C{"Source type?"}
+
+    C -->|"External\n(article, video, etc.)"| D["Create source file\nstatus: unread\nFetch & archive content"]
+    C -->|"Organic\n(essay, case study)"| E["Create source file\nstatus: unread\nNo auto-processing"]
+    C -->|"Note\n(quick idea)"| F["Create source file\nstatus: unread\nCapture as-is, no elaboration"]
+
+    D --> G["Human reads offline"]
+    G --> H["Mark as read\nAdd summary & notes"]
+    H --> I["Process source\nExtract discrete ideas"]
+
+    E --> J["Human reviews/revises draft"]
+    J --> I
+
+    F --> I
+
+    I --> K{"New idea or\nexisting entry?"}
+    K -->|"New"| L["Create knowledge entry\nstatus: draft"]
+    K -->|"Existing"| M["Enrich existing entry\nAdd source citation"]
+
+    L --> N{"Corroboration?"}
+    M --> N
+    N -->|"Single source"| O["draft"]
+    N -->|"Multiple sources"| P["solid"]
+    P --> Q["canonical\n(thoroughly vetted, teachable)"]
+
+    style A fill:#f9f,stroke:#333
+    style O fill:#ffd,stroke:#333
+    style P fill:#dfd,stroke:#333
+    style Q fill:#9f9,stroke:#333
+```
+
+**Key rule for notes**: A note alone keeps a knowledge entry at `draft`. Promotion to `solid` requires corroboration from an external source or the user substantially fleshing out the idea.
 
 ---
 
@@ -96,6 +147,10 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 - [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
 - [[reverse-engineer-judgment-into-ai]] — Collect before/after examples, have AI discover your implicit criteria, encode into reusable evaluator
 - [[scale-manager-expertise-with-ai]] — Automate "0-to-60%" repetitive feedback so managers can focus on deep strategic thinking and mentorship
+
+#### Change Management & Adoption
+
+*How leaders drive adoption of AI-native skills and ways of working. Framing, persuasion, organizational change, training approaches, and techniques for bringing teams and stakeholders along. Sources often embed these insights alongside craft techniques — screen for them explicitly.*
 
 ---
 
