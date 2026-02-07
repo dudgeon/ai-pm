@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-05
+updated: 2026-02-07
 tags: [project, ai-pm-craft, product-management, learning]
 status: active
 domain: professional-development
@@ -98,6 +98,14 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 ### Up Next (Unread)
 
 - [[2026-02-05-teresa-torres-claude-code-task-management]] — Teresa Torres's Claude Code workflows for task management, research automation, and context libraries (article, Claire Vo / ChatPRD)
+- [[2026-02-06-git-workflows-agentic-era]] — Git subtree/submodule patterns for sharing context across repos in the agentic era (article, organic)
+- [[2026-02-06-spec-driven-development-no-code-library]] — A software library with no code: spec-only libraries and when they work (article, Drew Breunig)
+- [[2026-02-06-build-ai-product-sense]] — Using Cursor for non-technical work to build AI product sense — RAG, memory, context engineering (newsletter, Tal Raviv & Aman Khan / Lenny's)
+- [[2026-02-06-brex-agent-human-ops]] — How Brex redesigns operations with AI: 3-level ops model, agent platform, generalist hiring (article, First Round)
+- [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (article, Andrew Pignanelli)
+- [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, data portability (article, Teresa Torres / Product Talk)
+- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP and Repo Prompt (article, Claire Vo / ChatPRD)
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone expert judgment for slide evaluation and writing coaching (article, Claire Vo / ChatPRD)
 
 ### Recently Processed
 
@@ -106,6 +114,10 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 ---
 
 ## Progress Log
+
+### 2026-02-07
+- Inbox triage: 11 items processed, 8 unique sources added (4 Ryan Carson duplicates merged)
+- Source registry now at 9 sources, all unread
 
 ### 2026-02-05
 - Project structure created
