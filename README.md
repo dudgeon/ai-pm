@@ -46,49 +46,58 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 ## Knowledge Map
 
-*The table of contents for all knowledge entries, organized by topic hierarchy. Updated as new entries are created or restructured.*
+*The table of contents for all knowledge entries, organized by two axes: product lifecycle (vertical) and horizontal skills that cut across it.*
 
-### Strategy & Vision
+---
+
+### Product Lifecycle
+
+*Knowledge organized by stage of building and shipping AI products. These sections are placeholders — see task for @user to provide the product lifecycle framework that reflects how you actually think about this.*
+
+#### Strategy & Vision
 
 *How to set direction for AI products, evaluate opportunities, and make bets.*
 
-### Shipping & Execution
+#### Shipping & Execution
 
 *How to move AI products from idea to production — scoping, tradeoffs, iteration.*
 
 - [[interactive-prd-writing]] — Templatized rule files + AI follow-up questions to generate thorough PRDs; "junior developer" standard for AI-friendly explicitness
 - [[task-list-generation-for-observability]] — Decomposing PRDs into nested task lists for observability, control, and stakeholder engagement surface
 - [[stepwise-task-execution]] — One-task-at-a-time execution with pause-and-approve checkpoints; error containment through early detection
-- [[context-first-development]] — "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context
 
-### Evaluation & Measurement
+#### Evaluation & Measurement
 
 *How to measure AI product quality, define success metrics, handle non-determinism.*
 
-### User Experience & Design
+#### User Experience & Design
 
 *Patterns for AI-powered interfaces, managing user expectations, trust calibration.*
 
-### Technical Fluency
+---
 
-*What AI PMs need to understand about models, infra, evals, and the stack — without becoming engineers.*
+### Horizontal Skills
 
-- [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
+*Knowledge that applies regardless of product lifecycle stage — how you work with AI systems and communicate with models.*
+
+#### Prompt Engineering
+
+*Specific patterns, framings, and structures for getting better outputs from AI. These techniques are portable: specific enough to use verbatim, broad enough to apply across contexts.*
+
 - [[be-100x-more-specific]] — Prompting technique that forces AI past vague principles into concrete, actionable standards
 - [[my-job-your-job-role-delineation]] — Explicit human/AI responsibility partitioning ("MY job is X, YOUR job is Y") to scope authority and set deliverables
-
-### Stakeholder & Team Dynamics
-
-*Working with ML engineers, researchers, executives. Communicating uncertainty. Building trust.*
-
-- [[scale-manager-expertise-with-ai]] — Automate "0-to-60%" repetitive feedback so managers can focus on deep strategic thinking and mentorship
-- [[reverse-engineer-judgment-into-ai]] — Collect before/after examples, have AI discover your implicit criteria, encode into reusable evaluator
-
-### Career & Growth
-
-*PM career progression, skill development, differentiation in the AI era.*
-
 - [[ai-as-writing-coach]] — Structured workflow for using AI to sharpen written communication: thesis validation → blind spots → restructuring
+
+#### Working with Agentic Systems
+
+*How to design your relationship with AI agents — workflows, feedback loops, system design, and collaboration patterns. Not one-shot prompting, but the ongoing process of building, evaluating, and refining AI-assisted systems.*
+
+- [[context-first-development]] — "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context
+- [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
+- [[reverse-engineer-judgment-into-ai]] — Collect before/after examples, have AI discover your implicit criteria, encode into reusable evaluator
+- [[scale-manager-expertise-with-ai]] — Automate "0-to-60%" repetitive feedback so managers can focus on deep strategic thinking and mentorship
+
+---
 
 ### Uncategorized
 
@@ -125,10 +134,11 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 ### 2026-02-07
 - Inbox triage: 11 items processed, 8 unique sources added (4 Ryan Carson duplicates merged)
 - Processed Ryan Carson source → 5 knowledge entries (interactive-prd-writing, task-list-generation-for-observability, stepwise-task-execution, context-first-development, deliberate-context-selection)
-- Processed Hilary Gridley source → 4 knowledge entries (reverse-engineer-judgment-into-ai, be-100x-more-specific, ai-as-writing-coach, scale-manager-expertise-with-ai)
-- Reprocessed both sources with higher granularity; updated source processing skill with decomposition guidance
-- 10 knowledge entries total, Knowledge Map updated
-- Added "portable prompting patterns" guidance to source processing skill
+- Processed Hilary Gridley source → 5 knowledge entries (reverse-engineer-judgment-into-ai, be-100x-more-specific, my-job-your-job-role-delineation, ai-as-writing-coach, scale-manager-expertise-with-ai)
+- Three rounds of refinement: decomposition guidance → portable prompting patterns → ontology restructure
+- Restructured Knowledge Map into two axes: Product Lifecycle (vertical) × Horizontal Skills (Prompt Engineering, Working with Agentic Systems)
+- Draft organic source written: "Teaching an AI Agent to Think Like You" (in inbox, awaiting review)
+- 10 knowledge entries total across 2 processed sources
 
 ### 2026-02-05
 - Project structure created
