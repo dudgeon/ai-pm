@@ -35,6 +35,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [[2026-02-06-brex-agent-human-ops]] | James Reggio, Camilla Matias | article | 2026-02-06 | — |
 | unread | [[2026-02-06-agent-native-engineering]] | Andrew Pignanelli | article | 2026-02-06 | — |
 | unread | [[2026-02-06-teresa-torres-claude-code-guide]] | Teresa Torres | article | 2026-02-06 | — |
+| unread | [[2026-02-07-zapier-workflows-crm-automation-meeting-prep]] | Claire Vo (Reid Robinson) | article | 2026-02-07 | — |
+| unread | [[2026-02-07-iterative-workflow-refinement-with-ai-agents]] | Geoff Dudgeon and Claude | organic | 2026-02-07 | — |
 | processed | [[2026-02-07-ryan-carson-structured-ai-development]] | Claire Vo (Ryan Carson) | article | 2026-02-07 | [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]] |
 | processed | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[my-job-your-job-role-delineation]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]] |
 
@@ -50,6 +52,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [[2026-02-06-brex-agent-human-ops]] — How Brex is redesigning operations with AI: 3-level ops model, agent platform, hiring for generalists (First Round)
 - [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (Andrew Pignanelli)
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, competitive analysis example, data portability (Product Talk)
+- [[2026-02-07-zapier-workflows-crm-automation-meeting-prep]] — Zapier MCP workflows for CRM automation, meeting prep, and self-improving customer feedback systems (ChatPRD)
+- [[2026-02-07-iterative-workflow-refinement-with-ai-agents]] — Organic draft: iterative refinement of AI agent skill files through three rounds of feedback (Dudgeon & Claude)
 ### Reading
 *None yet.*
 
@@ -64,8 +68,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 ## Stats
 
-- **Total sources**: 9
-- **Unread**: 7
+- **Total sources**: 11
+- **Unread**: 9
 - **Processed**: 2
 - **Knowledge entries generated**: 10
 

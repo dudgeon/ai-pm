@@ -122,6 +122,8 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 - [[2026-02-06-brex-agent-human-ops]] — How Brex redesigns operations with AI: 3-level ops model, agent platform, generalist hiring (article, First Round)
 - [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (article, Andrew Pignanelli)
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, data portability (article, Teresa Torres / Product Talk)
+- [[2026-02-07-zapier-workflows-crm-automation-meeting-prep]] — Zapier MCP workflows for CRM automation, meeting prep, and self-improving feedback loops (article, Claire Vo / ChatPRD)
+- [[2026-02-07-iterative-workflow-refinement-with-ai-agents]] — Iterative refinement of AI agent skill files through three rounds of feedback (organic draft, Dudgeon & Claude)
 ### Recently Processed
 
 - [[2026-02-07-ryan-carson-structured-ai-development]] → [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]]
