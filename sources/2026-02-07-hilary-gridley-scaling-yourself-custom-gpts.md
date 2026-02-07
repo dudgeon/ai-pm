@@ -27,7 +27,8 @@ Hilary Gridley demonstrates two ways to scale managerial expertise through AI. F
 
 ## Key Ideas Extracted
 
-- **[[reverse-engineer-judgment-into-ai]]**: Collect before/after examples, have AI discover your implicit criteria, refine iteratively with "be 100x more specific," then encode into a reusable custom GPT
+- **[[reverse-engineer-judgment-into-ai]]**: Collect before/after examples, have AI discover your implicit criteria, then encode into a reusable custom GPT
+- **[[be-100x-more-specific]]**: Prompting technique that forces AI past vague principles into concrete, actionable standards — broadly applicable beyond the slide evaluation use case
 - **[[ai-as-writing-coach]]**: Structured workflow for using AI to sharpen written communication — thesis validation, blind spot detection, restructuring — where the human always writes the final version
 - **[[scale-manager-expertise-with-ai]]**: Automate the "0-to-60%" repetitive feedback (slide reviews, writing coaching) so managers can focus on deep strategic thinking and personal mentorship
 

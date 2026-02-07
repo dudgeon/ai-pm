@@ -27,7 +27,9 @@ Ryan Carson's core argument is that "vibe coding" fails at scale because develop
 
 ## Key Ideas Extracted
 
-- **[[prd-driven-ai-development]]**: Three-file rule system that structures AI development from high-level idea through PRD to executable task list with human-in-the-loop checkpoints
+- **[[interactive-prd-writing]]**: Templatized rule file that instructs AI to ask clarifying questions before generating a PRD, forcing thorough context-building; "junior developer" standard ensures AI-friendly explicitness
+- **[[task-list-generation-for-observability]]**: Decomposing a PRD into a nested task list as a mechanism for observability (see the plan before execution), control (approve before action), and stakeholder engagement (readable artifact for collaborators)
+- **[[stepwise-task-execution]]**: One-task-at-a-time execution with pause-and-approve checkpoints after each step; catches errors before they compound across dependent tasks
 - **[[context-first-development]]**: "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context; writing PRDs "for a junior developer" forces the clarity AI needs
 - **[[deliberate-context-selection]]**: Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box") — for complex tasks, precise context produces dramatically better results
 

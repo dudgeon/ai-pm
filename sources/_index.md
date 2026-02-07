@@ -35,8 +35,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [[2026-02-06-brex-agent-human-ops]] | James Reggio, Camilla Matias | article | 2026-02-06 | — |
 | unread | [[2026-02-06-agent-native-engineering]] | Andrew Pignanelli | article | 2026-02-06 | — |
 | unread | [[2026-02-06-teresa-torres-claude-code-guide]] | Teresa Torres | article | 2026-02-06 | — |
-| processed | [[2026-02-07-ryan-carson-structured-ai-development]] | Claire Vo (Ryan Carson) | article | 2026-02-07 | [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]] |
-| processed | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]] |
+| processed | [[2026-02-07-ryan-carson-structured-ai-development]] | Claire Vo (Ryan Carson) | article | 2026-02-07 | [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]] |
+| processed | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]] |
 
 ---
 
@@ -57,8 +57,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 *None yet.*
 
 ### Processed
-- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]]
-- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
+- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]]
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
 
 ---
 
@@ -67,6 +67,6 @@ Master index of all source material. Sortable by status, type, author, and date.
 - **Total sources**: 9
 - **Unread**: 7
 - **Processed**: 2
-- **Knowledge entries generated**: 6
+- **Knowledge entries generated**: 9
 
 *Updated: 2026-02-07*

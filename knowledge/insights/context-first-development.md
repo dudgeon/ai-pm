@@ -39,5 +39,7 @@ A practical heuristic: write as if you're instructing a "junior developer." This
 
 ## Related
 
-- [[prd-driven-ai-development]]
+- [[interactive-prd-writing]]
+- [[task-list-generation-for-observability]]
+- [[stepwise-task-execution]]
 - [[deliberate-context-selection]]

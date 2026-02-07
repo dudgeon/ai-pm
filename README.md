@@ -56,7 +56,9 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 *How to move AI products from idea to production — scoping, tradeoffs, iteration.*
 
-- [[prd-driven-ai-development]] — Three-file rule system for structured AI development: PRD → tasks → stepwise execution with human-in-the-loop
+- [[interactive-prd-writing]] — Templatized rule files + AI follow-up questions to generate thorough PRDs; "junior developer" standard for AI-friendly explicitness
+- [[task-list-generation-for-observability]] — Decomposing PRDs into nested task lists for observability, control, and stakeholder engagement surface
+- [[stepwise-task-execution]] — One-task-at-a-time execution with pause-and-approve checkpoints; error containment through early detection
 - [[context-first-development]] — "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context
 
 ### Evaluation & Measurement
@@ -72,6 +74,7 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 *What AI PMs need to understand about models, infra, evals, and the stack — without becoming engineers.*
 
 - [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
+- [[be-100x-more-specific]] — Prompting technique that forces AI past vague principles into concrete, actionable standards
 
 ### Stakeholder & Team Dynamics
 
@@ -111,8 +114,8 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, data portability (article, Teresa Torres / Product Talk)
 ### Recently Processed
 
-- [[2026-02-07-ryan-carson-structured-ai-development]] → [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]]
-- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] → [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
+- [[2026-02-07-ryan-carson-structured-ai-development]] → [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]]
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] → [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
 
 ---
 
@@ -120,9 +123,10 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 ### 2026-02-07
 - Inbox triage: 11 items processed, 8 unique sources added (4 Ryan Carson duplicates merged)
-- Processed Ryan Carson source → 3 knowledge entries (prd-driven-ai-development, context-first-development, deliberate-context-selection)
-- Processed Hilary Gridley source → 3 knowledge entries (reverse-engineer-judgment-into-ai, ai-as-writing-coach, scale-manager-expertise-with-ai)
-- 6 knowledge entries created, Knowledge Map updated
+- Processed Ryan Carson source → 5 knowledge entries (interactive-prd-writing, task-list-generation-for-observability, stepwise-task-execution, context-first-development, deliberate-context-selection)
+- Processed Hilary Gridley source → 4 knowledge entries (reverse-engineer-judgment-into-ai, be-100x-more-specific, ai-as-writing-coach, scale-manager-expertise-with-ai)
+- Reprocessed both sources with higher granularity; updated source processing skill with decomposition guidance
+- 9 knowledge entries total, Knowledge Map updated
 
 ### 2026-02-05
 - Project structure created

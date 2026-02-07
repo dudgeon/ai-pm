@@ -39,4 +39,5 @@ When working with LLMs on complex tasks (architectural reviews, tricky refactors
 ## Related
 
 - [[context-first-development]]
-- [[prd-driven-ai-development]]
+- [[interactive-prd-writing]]
+- [[be-100x-more-specific]]
