@@ -39,13 +39,13 @@ The technique works because LLMs tend to produce safe, generic outputs on the fi
 
 ## Sources
 
-### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
+### From: [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](../../sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md)
 **Key quote**: "I kind of want the AI to start by interpreting this in ways that I might not even be able to predict. And then I'm gonna get an intune it and that's when I get super, super specific."
 **Attribution**: Hilary Gridley
 **What this source adds**: Gridley uses this in the context of building a "Deck Doctor" GPT — after AI reverse-engineers her implicit slide evaluation criteria from before/after examples, "be 100x more specific" is the refinement step that makes those criteria actionable enough to power a custom evaluator. She notes this technique is "broadly applicable beyond slide evaluation."
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [Archive](../../sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md)
 
 ## Related
 
-- [[reverse-engineer-judgment-into-ai]]
-- [[context-first-development]]
+- [Reverse Engineer Judgment Into AI](../ai-adoption/reverse-engineer-judgment-into-ai.md)
+- [Context First Development](../product-lifecycle/build/context-first-development.md)

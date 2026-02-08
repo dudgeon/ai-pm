@@ -34,7 +34,7 @@ project: ai-pm-craft
 
 ## Notes
 
-*Short news interview. Related to but distinct from [[2026-02-07-zapier-workflows-crm-automation-meeting-prep]] (Claire Vo interviewing Robinson about Zapier MCP workflows). This BetaKit piece focuses more on AI adoption philosophy and Zapier's product strategy than specific workflows.*
+*Short news interview. Related to but distinct from [2026-02-07 Zapier Workflows CRM Automation Meeting Prep](2026-02-07-zapier-workflows-crm-automation-meeting-prep.md) (Claire Vo interviewing Robinson about Zapier MCP workflows). This BetaKit piece focuses more on AI adoption philosophy and Zapier's product strategy than specific workflows.*
 
 ## Raw Content
 

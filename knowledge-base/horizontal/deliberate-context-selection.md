@@ -33,14 +33,14 @@ When working with LLMs on complex tasks (architectural reviews, tricky refactors
 
 ## Sources
 
-### From: [[2026-02-07-ryan-carson-structured-ai-development]]
+### From: [2026-02-07 Ryan Carson Structured AI Development](../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 **Key quote**: Repo Prompt "replaces the 'black box' of automatic context with the 'glass box' of deliberate, precise control."
 **Attribution**: Ryan Carson
 **What this source adds**: Carson demonstrates this through Repo Prompt — a desktop app that lets you visually select files, add persona instructions, and generate structured prompts with XML tags. The key distinction: automatic context is fine for routine work, but for complex tasks you need surgical precision over what the LLM sees.
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [Archive](../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 
 ## Related
 
-- [[context-first-development]]
-- [[interactive-prd-writing]]
-- [[be-100x-more-specific]]
+- [Context First Development](../product-lifecycle/build/context-first-development.md)
+- [Interactive PRD Writing](../product-lifecycle/build/interactive-prd-writing.md)
+- [Be 100x More Specific](be-100x-more-specific.md)

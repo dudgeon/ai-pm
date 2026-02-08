@@ -34,7 +34,7 @@ project: ai-pm-craft
 
 ## Notes
 
-*Overlaps significantly with the Claire Vo / Marily Nika episode on Lenny's. This source adds the full six-tool stack breakdown and career advice for aspiring AI PMs. Consider processing together with [[2026-02-08-marily-nika-pm-ai-toolkit]] to avoid duplicating entries.*
+*Overlaps significantly with the Claire Vo / Marily Nika episode on Lenny's. This source adds the full six-tool stack breakdown and career advice for aspiring AI PMs. Consider processing together with [2026-02-08 Marily Nika PM AI Toolkit](2026-02-08-marily-nika-pm-ai-toolkit.md) to avoid duplicating entries.*
 
 ## Raw Content
 

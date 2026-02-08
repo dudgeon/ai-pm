@@ -9,7 +9,7 @@ status: active
 
 Canonical reference for classifying knowledge entries. Used by the source processing skill and knowledge entry template.
 
-For full phase lineage, component descriptions, and AI-PM emphasis, see [[lifecycle-framework-v2]].
+For full phase lineage, component descriptions, and AI-PM emphasis, see [Lifecycle Framework V2](lifecycle-framework-v2.md).
 
 ---
 

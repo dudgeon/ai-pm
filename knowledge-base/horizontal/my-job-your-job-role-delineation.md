@@ -44,14 +44,14 @@ YOUR job is [what you want the AI to produce — a specific, bounded deliverable
 
 ## Sources
 
-### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
+### From: [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](../../sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md)
 **Key quote**: "My job is to create a GPT that can evaluate slide decks for people on my team based on my specific criteria that I care about. It's really important to me that this GPT explains the criteria, why it matters, and gives the user specific feedback on how to improve. YOUR job is to write the prompt for it."
 **Attribution**: Hilary Gridley
 **What this source adds**: Gridley uses this in the context of building a custom GPT evaluator — she retains ownership of the quality standards and delegates the prompt engineering to the AI. The result is a detailed set of GPT instructions including persona, evaluation criteria, and feedback format. Notable that she embeds her requirements *within* the role delineation itself ("it's really important to me that..."), making the handoff information-rich rather than just structural.
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [Archive](../../sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md)
 
 ## Related
 
-- [[be-100x-more-specific]]
-- [[reverse-engineer-judgment-into-ai]]
-- [[interactive-prd-writing]]
+- [Be 100x More Specific](be-100x-more-specific.md)
+- [Reverse Engineer Judgment Into AI](../ai-adoption/reverse-engineer-judgment-into-ai.md)
+- [Interactive PRD Writing](../product-lifecycle/build/interactive-prd-writing.md)
