@@ -1,14 +1,15 @@
 ---
 created: 2026-02-07
-updated: 2026-02-07
+updated: 2026-02-08
 template: templates/knowledge-entry.md
-template_version: 2
+template_version: 3
 tags: [knowledge, ai-pm-craft, insight, context-engineering]
 status: draft
 entry_type: insight
 origin: sourced
 featured: false
-domain: professional-development
+domain: product-lifecycle
+lifecycle_phase: build
 project: ai-pm-craft
 ---
 

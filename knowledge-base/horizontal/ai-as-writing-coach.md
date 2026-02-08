@@ -1,14 +1,14 @@
 ---
 created: 2026-02-07
-updated: 2026-02-07
+updated: 2026-02-08
 template: templates/knowledge-entry.md
-template_version: 2
+template_version: 3
 tags: [knowledge, ai-pm-craft, technique, writing, communication]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
-domain: professional-development
+domain: horizontal
 project: ai-pm-craft
 ---
 

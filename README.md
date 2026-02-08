@@ -12,42 +12,86 @@ A knowledge base for AI-augmented product management — how PMs use AI tools ef
 
 ## Structure
 
-### Sources (`sources/`)
+```
+ai-pm-craft/
+├── sources/           Source material with full attribution and reading status
+├── knowledge-base/    Extracted knowledge organized by domain
+│   ├── product-lifecycle/{phase}/   Mapped to six lifecycle phases
+│   ├── horizontal/                  Cross-cutting skills
+│   └── ai-adoption/                 Org change and adoption
+└── meta/              Project ontology, taxonomy, and lifecycle framework
+```
 
-Primary material (articles, podcasts, videos, organic insights) with full attribution. Sources are read, annotated, and processed into discrete knowledge entries. See `sources/_index.md` for the full registry and reading queue.
-
-**Source lifecycle**: `unread` → `reading` → `read` → `processed`
-
-### Knowledge (`knowledge/`)
-
-Extracted, portable knowledge organized into three domains. Each entry is atomic (one idea per file) with source lineage. Entries marked `featured: true` are techniques worth championing organizationally.
-
+**Sources**: `unread` → `reading` → `read` → `processed` (see `sources/_index.md`)
+**Entries**: `draft` → `solid` (multiple sources) → `canonical` (vetted, teachable)
 **Entry types**: `technique` · `mental-model` · `insight`
-**Entry lifecycle**: `draft` → `solid` (multiple sources) → `canonical` (vetted, teachable)
+**Taxonomy reference**: `meta/taxonomy.md`
 
 ---
 
 ## Knowledge Map
 
-### Product Lifecycle (`product-lifecycle/`)
+### Product Lifecycle
 
-Techniques and insights mapped to stages of building product — from discovery through shipping and measurement. Will develop sub-domains as content grows.
+Six phases. Entries sit flat within phase folders; the `component` frontmatter field records the most specific applicable component. See `meta/lifecycle-framework-v2.md` for full phase lineage and AI-PM emphasis.
 
-- [[interactive-prd-writing]] — Templatized rule files + AI follow-up questions for thorough PRDs
-- [[task-list-generation-for-observability]] — Decomposing PRDs into nested task lists for observability and control
-- [[stepwise-task-execution]] — One-task-at-a-time execution with pause-and-approve checkpoints
-- [[context-first-development]] — The biggest mistake in AI-assisted dev is rushing past context
+#### Discover
 
-### Horizontal Product & Knowledge Work (`horizontal/`)
+*What problems are worth solving?*
+Components: Problem Signal Detection · Market & Competitive Intelligence · Opportunity Prioritization · Problem Brief
 
-Patterns that cut across the product lifecycle — prompting techniques, writing workflows, context engineering.
+*No entries yet.*
+
+#### Frame
+
+*What does success look like, and what's the bet?*
+Components: Stakeholder Intent Alignment · Success Criteria & Business Case · Roadmap Definition
+
+*No entries yet.*
+
+#### Shape
+
+*What solution takes form, and for whom?*
+Components: Persona & Journey Mapping · Prototyping & Risk Reduction · Go-to-Market Planning
+
+*No entries yet.*
+
+#### Build
+
+*How do we ship with clarity and conviction?*
+Components: Feature Specification Writing · User Story & Acceptance Criteria · Stakeholder Communication · Scope & Priority Tradeoffs
+
+- [[interactive-prd-writing]] — Templatized rule files + AI follow-up questions for thorough PRDs `build/feature-specification-writing`
+- [[task-list-generation-for-observability]] — Decomposing PRDs into nested task lists for observability and control `build/user-story-acceptance-criteria`
+- [[context-first-development]] — The biggest mistake in AI-assisted dev is rushing past context `build`
+
+#### Release
+
+*How do we put this into the world deliberately?*
+Components: Release Readiness Assessment · Phased Rollout Strategy · Release Communications · Launch Marketing & Enablement
+
+*No entries yet.*
+
+#### Measure
+
+*Did it work, and what do we do next?*
+Components: KPI & Outcome Monitoring · Customer Feedback Collection · Experiment Design & Analysis · End-of-Life & Deprecation
+
+*No entries yet.*
+
+---
+
+### Horizontal Product & Knowledge Work
+
+Patterns that cut across the product lifecycle — prompting techniques, writing workflows, context engineering, workflow design.
 
 - [[be-100x-more-specific]] — Forces AI past vague principles into concrete, actionable standards
 - [[my-job-your-job-role-delineation]] — Explicit human/AI responsibility partitioning
 - [[deliberate-context-selection]] — Hand-picking files for LLM context vs. relying on automatic context
 - [[ai-as-writing-coach]] — Structured workflow: thesis validation → blind spots → restructuring
+- [[stepwise-task-execution]] — One-task-at-a-time execution with pause-and-approve checkpoints
 
-### AI Adoption & Change Management (`ai-adoption/`)
+### AI Adoption & Change Management
 
 How organizations and individuals adapt to AI-native ways of working — scaling expertise, restructuring teams, driving adoption.
 
@@ -58,7 +102,7 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 
 ## Status
 
-Early stage. 11 sources captured, 2 fully processed into 10 knowledge entries (all draft). 7 unread sources in the queue. The structure is designed to grow through continued source processing.
+Early stage. 11 sources captured, 2 fully processed into 10 knowledge entries (all draft). 7 unread sources in the queue. Current entries cluster in Build, Horizontal, and AI Adoption — other lifecycle phases will populate as more sources are processed.
 
 ---
 
