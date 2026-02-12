@@ -4,7 +4,7 @@ updated: 2026-02-08
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm-craft]
-status: unread
+status: read
 source_type: podcast/newsletter
 source_url: "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code"
 archive_url: ""
@@ -43,7 +43,18 @@ Lazar Jovanovic is a full-time professional vibe coder at Lovable. His job is to
 
 ## Notes
 
-*Your annotations, reactions, questions, disagreements. Written during or after reading.*
+Key takeaways to explore further:
+- PRD/markdown systems for keeping AI agents aligned on complex builds
+- 4x4 debugging workflow for problem-solving with AI
+- Parallel prototyping approach (kicking off 4-5 prototypes to clarify thinking)
+- The convergence of product/engineering/design roles
+- Why design taste is becoming the critical skill vs. technical syntax knowledge
+- "Genie and three wishes" mental model for working within AI limitations
+
+Next steps:
+- [ ] Extract key ideas into ai-pm-craft knowledge base
+- [ ] Consider how these workflows apply to work-agent-harness framework
+- [ ] Review the Lovable PRD/base prompt generators referenced
 
 Note: Full content is behind Lenny's Newsletter paywall. Consider using Chrome MCP to access.
 
