@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-08
+updated: 2026-02-13
 tags: [project, ai-pm-craft, product-management, learning]
 status: active
 domain: professional-development
@@ -16,9 +16,13 @@ A knowledge base for AI-augmented product management — how PMs use AI tools ef
 ai-pm-craft/
 ├── sources/           Source material with full attribution and reading status
 ├── knowledge-base/    Extracted knowledge organized by domain
-│   ├── product-lifecycle/{phase}/   Mapped to six lifecycle phases
-│   ├── horizontal/                  Cross-cutting skills
-│   └── ai-adoption/                 Org change and adoption
+│   ├── product-lifecycle/{phase}/       Mapped to six lifecycle phases (vertical)
+│   ├── horizontal/                      Cross-cutting knowledge areas (horizontal)
+│   │   ├── practices/                   Atomic portable techniques
+│   │   ├── software-delivery/           Delivery methodologies (compound eng, spec-driven dev)
+│   │   ├── agent-lifecycle/             Managing agents as participants
+│   │   └── knowledge-management/        Shared human-agent context systems
+│   └── ai-adoption/                     Org change and adoption
 └── meta/              Project ontology, taxonomy, and lifecycle framework
 ```
 
@@ -47,7 +51,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 21 sources captured, 2 fully processed into 10 knowledge entries (all draft). 17 unread sources in the queue. Current entries cluster in Build, Horizontal, and AI Adoption — other lifecycle phases will populate as more sources are processed.
+Early stage. 23 sources captured, 3 fully processed into 12 knowledge entries (all draft). 17 unread sources in the queue. Current entries cluster in Build, Horizontal Practices, and AI Adoption. Three new horizontal domains (Software Delivery, Agent Lifecycle, Knowledge Management) established — awaiting source processing to populate.
 
 ---
 

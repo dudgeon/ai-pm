@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-08
+updated: 2026-02-13
 tags: [index, ai-pm-craft, knowledge-base]
 status: active
 domain: professional-development
@@ -66,16 +66,36 @@ Components: KPI & Outcome Monitoring · Customer Feedback Collection · Experime
 
 ---
 
-## Horizontal Product & Knowledge Work
+## Horizontal Domains
 
-Patterns that cut across the product lifecycle — prompting techniques, writing workflows, context engineering, workflow design.
+Knowledge areas and practices that cut across the product lifecycle. Each horizontal domain has its own depth and internal structure — see [taxonomy](../meta/taxonomy.md#horizontal-domains) for classification rules.
 
-- [Be 100x More Specific](horizontal/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
-- [My Job Your Job Role Delineation](horizontal/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
-- [Deliberate Context Selection](horizontal/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
-- [AI as Writing Coach](horizontal/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
-- [Stepwise Task Execution](horizontal/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Shape/Ship/Sync PM Work Model](horizontal/shape-ship-sync-pm-work-model.md) — Three-job framework for PM work with AI disruption ratings per sub-task
+### [Practices](horizontal/practices/) — Portable Techniques
+
+Atomic techniques applicable across 3+ lifecycle phases — prompting patterns, writing workflows, context engineering, human-AI collaboration patterns.
+
+- [Be 100x More Specific](horizontal/practices/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
+- [My Job Your Job Role Delineation](horizontal/practices/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
+- [Deliberate Context Selection](horizontal/practices/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
+- [AI as Writing Coach](horizontal/practices/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
+- [Stepwise Task Execution](horizontal/practices/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Shape/Ship/Sync PM Work Model](horizontal/practices/shape-ship-sync-pm-work-model.md) — Three-job framework for PM work with AI disruption ratings per sub-task
+
+### [Software Delivery](horizontal/software-delivery/) — Delivery Methodologies
+
+Emerging methodologies for AI-native software delivery — compound engineering, spec-driven development, and how they reshape the PM's role.
+
+*No entries yet.*
+
+### [Agent Lifecycle](horizontal/agent-lifecycle/) — Managing Agents as Participants
+
+How PMs select, onboard, train, give feedback to, and performance-manage AI agents across all lifecycle phases.
+
+*No entries yet.*
+
+### [Knowledge Management](horizontal/knowledge-management/) — Shared Human-Agent Context
+
+Feeding, curating, and accessing private and public context shared by both humans and agents — knowledge systems as product.
 
 ## AI Adoption & Change Management
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-08
+updated: 2026-02-13
 tags: [meta, ai-pm-craft, taxonomy]
 status: active
 ---
@@ -20,14 +20,38 @@ Every knowledge entry belongs to exactly one domain.
 | Domain | Folder | What belongs here |
 |---|---|---|
 | **Product Lifecycle** | `knowledge-base/product-lifecycle/{phase}/` | Techniques and insights that augment a specific stage of building product |
-| **Horizontal** | `knowledge-base/horizontal/` | Patterns that cut across the lifecycle — prompting, context engineering, writing, workflow design |
+| **Horizontal** | `knowledge-base/horizontal/{horizontal_domain}/` | Knowledge areas and practices that cut across the lifecycle — see Horizontal Domains below |
 | **AI Adoption** | `knowledge-base/ai-adoption/` | How organizations and individuals adapt to AI-native ways of working — scaling expertise, org change, driving adoption |
 
 ### Classification test
 
 1. **Does this technique augment a specific lifecycle phase?** → Product Lifecycle (file under the phase)
-2. **Is it a portable skill applicable regardless of phase?** → Horizontal
+2. **Is it a cross-cutting skill, methodology, or knowledge area?** → Horizontal (then determine which horizontal domain — see below)
 3. **Is it about bringing others along or changing how teams/orgs work?** → AI Adoption
+
+---
+
+## Horizontal Domains
+
+The horizontal domain has internal structure. Each horizontal domain is a knowledge area with its own depth — not just a collection of atomic techniques. Entries sit flat in their horizontal domain folder; the `horizontal_domain` frontmatter field records which one.
+
+| Horizontal Domain | Slug | Folder | What belongs here |
+|---|---|---|---|
+| **Practices** | `practices` | `horizontal/practices/` | Atomic, portable techniques — prompting patterns, writing workflows, context engineering, human-AI collaboration patterns. Individual methods applicable across 3+ lifecycle phases. |
+| **Software Delivery** | `software-delivery` | `horizontal/software-delivery/` | Emerging delivery methodologies (compound engineering, spec-driven development, vibe coding) — how software gets built in an AI-native world, and how the lifecycle interacts with these approaches. |
+| **Agent Lifecycle** | `agent-lifecycle` | `horizontal/agent-lifecycle/` | How PMs select, onboard, train, give feedback to, and performance-manage AI agents — the talent-management analog for agents as ongoing participants in work. |
+| **Knowledge Management** | `knowledge-management` | `horizontal/knowledge-management/` | Feeding, curating, and accessing private and public context shared by humans and agents — knowledge systems, context engineering strategy, organizational knowledge as product. |
+
+### Horizontal classification test
+
+1. **Is it an atomic, portable technique?** → Practices
+2. **Is it about a delivery methodology or how software gets built?** → Software Delivery
+3. **Is it about managing agents as ongoing participants?** → Agent Lifecycle
+4. **Is it about knowledge systems, context curation, or shared knowledge?** → Knowledge Management
+
+### Dual attribution
+
+Horizontal entries frequently relate to specific lifecycle phases. Use `lifecycle_phase` in frontmatter (optional for horizontal entries) to record the primary phase connection when one exists. An entry about how spec-driven development changes PRD writing would live in Software Delivery with `lifecycle_phase: build` as a cross-reference. **One idea can be attributed to multiple domains** — when an insight genuinely belongs in both a horizontal domain and a lifecycle phase, create the entry where it has the most depth and add cross-references via the Related section.
 
 ---
 
@@ -140,6 +164,12 @@ domain: product-lifecycle | horizontal | ai-adoption
 lifecycle_phase: discover | frame | shape | build | release | measure
 component: <component-slug from tables above>
 
+# Required for horizontal entries
+horizontal_domain: practices | software-delivery | agent-lifecycle | knowledge-management
+
+# Optional for horizontal entries (dual attribution)
+lifecycle_phase: discover | frame | shape | build | release | measure  # when the entry has a primary phase connection
+
 # Optional
 featured: true  # Worth championing organizationally
 ```
@@ -148,8 +178,11 @@ featured: true  # Worth championing organizationally
 
 ## Placement Rules
 
-1. **Most specific component wins.** If an entry clearly maps to a component, tag it there. If it spans multiple components within a phase, use the primary one and note connections in Related.
+1. **Most specific component wins.** If an entry clearly maps to a lifecycle component, tag it there. If it spans multiple components within a phase, use the primary one and note connections in Related.
 2. **Phase-level is OK.** If an entry fits a phase but not a specific component, omit the `component` field and file it in the phase folder.
-3. **Cross-phase entries go horizontal.** If an entry applies across 3+ phases, it's probably a horizontal skill, not a lifecycle entry.
-4. **When in doubt, ask.** Don't force-fit entries into the taxonomy. Flag uncertain placements for review.
-5. **Screen for adoption.** Sources often embed change management insights alongside craft techniques. Extract these separately into ai-adoption.
+3. **Cross-phase entries go horizontal.** If an entry applies across 3+ phases, it's probably a horizontal entry. Determine which horizontal domain fits best.
+4. **Horizontal domain entries can reference lifecycle phases.** Use `lifecycle_phase` in frontmatter to record the primary phase connection when one exists. Use the Related section to cross-reference entries in other domains.
+5. **Distinguish atomic techniques from domain knowledge.** A single portable technique (prompting pattern, workflow step) → Practices. A methodology, system, or knowledge area requiring study → Software Delivery, Agent Lifecycle, or Knowledge Management.
+6. **When in doubt, ask.** Don't force-fit entries into the taxonomy. Flag uncertain placements for review.
+7. **Screen for adoption.** Sources often embed change management insights alongside craft techniques. Extract these separately into ai-adoption.
+8. **Screen for horizontal domain insights.** Sources about delivery workflows may contain agent management insights or knowledge management patterns. Extract these into the appropriate horizontal domain.

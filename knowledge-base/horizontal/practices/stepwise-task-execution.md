@@ -9,6 +9,7 @@ entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
+horizontal_domain: practices
 project: ai-pm-craft
 ---
 
