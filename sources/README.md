@@ -50,6 +50,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-08 Claire Vo Idea to Product 30 Min](2026-02-08-claire-vo-idea-to-product-30-min.md) | Peter Yang (Claire Vo) | article | 2026-02-08 | — |
 | unread | [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) | David Gopp | article | 2026-02-08 | — |
 | read | [2026-02-08 Getting Paid to Vibe Code](2026-02-08-vibe-coding-new-ai-job.md) | Lenny Rachitsky (Lazar Jovanovic) | podcast/newsletter | 2026-02-08 | — |
+| read | [2026-02-09 Scaling People to Scaling Agents](2026-02-09-scaling-people-to-scaling-agents.md) | Geoff Dudgeon, Claude Opus 4.6 | organic | 2026-02-09 | — |
 | unread | [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) | Geoff Dudgeon | note | 2026-02-09 | — |
 | unread | [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) | OpenAI | article | 2026-02-13 | — |
 | unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
@@ -83,6 +84,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 *None yet.*
 
 ### Read (Awaiting Processing)
+- [2026-02-09 Scaling People to Scaling Agents](2026-02-09-scaling-people-to-scaling-agents.md) — Maps CHJ's *Scaling People* management framework to AI agent management: mechanism layer, retro pattern, trust tiers, skill-reliability matrix, delegation cube, attention economics (organic)
 - [2026-02-08 Getting Paid to Vibe Code](2026-02-08-vibe-coding-new-ai-job.md) — Professional vibe coder at Lovable: PRD/markdown systems, 4x4 debugging, parallel prototyping, design taste as critical skill (Lenny's Newsletter)
 - [2026-02-06 Spec Driven Development No Code Library](2026-02-06-spec-driven-development-no-code-library.md) — Spec-only library with zero code; when spec-driven dev works vs when traditional code is necessary (Drew Breunig)
 - [2026-02-06 Git Workflows Agentic Era](2026-02-06-git-workflows-agentic-era.md) — Git subtree + submodule patterns for sharing context across repos in agentic workflows (organic)
@@ -96,10 +98,10 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 ## Stats
 
-- **Total sources**: 25
+- **Total sources**: 26
 - **Unread**: 19
-- **Read (awaiting processing)**: 3
+- **Read (awaiting processing)**: 4
 - **Processed**: 3
 - **Knowledge entries generated**: 14
 
-*Updated: 2026-02-13*
+*Updated: 2026-02-14*

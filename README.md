@@ -59,7 +59,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 25 sources captured, 3 fully processed into 14 knowledge entries (all draft). 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Gems & GPTs layer awaiting source processing to populate.
+Early stage. 26 sources captured, 3 fully processed into 14 knowledge entries (all draft). 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Gems & GPTs layer awaiting source processing to populate.
 
 ---
 
