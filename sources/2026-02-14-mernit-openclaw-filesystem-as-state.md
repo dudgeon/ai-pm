@@ -5,7 +5,7 @@ updated: 2026-02-14
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm]
-status: read
+status: processed
 source_type: article
 source_url: "https://x.com/mernit/status/2021324284875153544"
 archive_url: "domains/professional-development/ai-pm/sources/2026-02-14-mernit-openclaw-filesystem-as-state.md"
@@ -29,7 +29,8 @@ Openclaw's entire context model is the filesystem. The architecture of an AI age
 
 ## Key Ideas Extracted
 
-*Fill during processing.*
+- [Filesystem as Agent State](../knowledge-base/horizontal/agents/filesystem-as-agent-state.md) — Agent architecture reduces to filesystem (state) + LLM (orchestrator); company-as-filesystem extends the pattern to enterprise
+- [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md) — The primary barrier to enterprise agent adoption is fragmented data across SaaS silos, not model capability
 
 ## Notes
 
