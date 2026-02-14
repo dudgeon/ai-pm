@@ -56,6 +56,9 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
 | processed | [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) | Claire Vo (ChatPRD) | article | 2026-02-14 | [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) |
 | processed | [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) | @mernit | article | 2026-02-14 | [Filesystem as Agent State](../knowledge-base/horizontal/agents/filesystem-as-agent-state.md), [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md) |
+| processed | [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) | Nader Dabit (@dabit3) | article | 2026-02-14 | [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md) |
+| unread | [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) | Pedro (@sillydarket) | article | 2026-02-14 | — |
+| unread | [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) | Geoff Dudgeon, Claude | note | 2026-02-14 | — |
 
 ---
 
@@ -81,6 +84,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) — Identifies "Managing Agents" as a nascent horizontal skill domain — agent selection, onboarding, performance retros, context management (note)
 - [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) — OpenAI built product with 0 manually-written code using Codex agents: 1M lines, 1500 PRs, agent-first engineering, progressive context disclosure, mechanical architecture enforcement (OpenAI)
 - [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) — 50 ways non-technical people use Claude Code; argues it's the best consumer AI product (Lenny's Newsletter, partial — paywalled)
+- [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) — Open-source agent memory modeled on Obsidian: markdown+YAML outperforms specialized memory infra (74% vs 68.5% LoCoMo), typed memory taxonomy, wiki-link knowledge graphs, budget-aware context injection, vault index pattern (@sillydarket / Versatly, X)
+- [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) — Research synthesis on 3-layer retrieval for agent context, context graphs (Graphiti/Zep, GraphRAG), filesystem-as-retrieval-system pattern (Letta), recommendations for home-brain and work-agent-harness (note)
 
 ### Reading
 *None yet.*
@@ -97,15 +102,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most; Shape/Ship/Sync three-job model with disruption ratings (Lenny's Newsletter) → [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md), [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md), [Sync the People](../knowledge-base/horizontal/context/sync-the-people-ai-disruption.md)
 - [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) — Three workflows for creating Claude Skills; meta-skill factory pattern (ChatPRD) → [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md)
 - [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) — Filesystem-as-state + Claude-as-orchestrator; company-as-filesystem; data silos block agent adoption (@mernit, X) → [Filesystem as Agent State](../knowledge-base/horizontal/agents/filesystem-as-agent-state.md), [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md)
+- [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) — Devin captures team knowledge as side effect of engineer corrections; multi-source knowledge, scoped retrieval, emergent onboarding (Nader Dabit / Cognition, X) → [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md)
 
 ---
 
 ## Stats
 
-- **Total sources**: 28
-- **Unread**: 19
+- **Total sources**: 31
+- **Unread**: 21
 - **Read (awaiting processing)**: 4
-- **Processed**: 5
-- **Knowledge entries generated**: 17
+- **Processed**: 6
+- **Knowledge entries generated**: 19
 
 *Updated: 2026-02-14*
