@@ -4,6 +4,8 @@ updated: 2026-02-13
 tags: [project, ai-pm-craft, product-management, learning]
 status: active
 domain: professional-development
+pattern: domain-source-synthesis
+source_types: [article, video, podcast, book-chapter, organic, note]
 ---
 
 # AI PM Craft
@@ -17,11 +19,11 @@ ai-pm-craft/
 ├── sources/           Source material with full attribution and reading status
 ├── knowledge-base/    Extracted knowledge organized by domain
 │   ├── product-lifecycle/{phase}/       Mapped to six lifecycle phases (vertical)
-│   ├── horizontal/                      Cross-cutting knowledge areas (horizontal)
-│   │   ├── practices/                   Atomic portable techniques
-│   │   ├── software-delivery/           Delivery methodologies (compound eng, spec-driven dev)
-│   │   ├── agent-lifecycle/             Managing agents as participants
-│   │   └── knowledge-management/        Shared human-agent context systems
+│   ├── horizontal/                      Cross-cutting knowledge areas (stack by delivery mechanism)
+│   │   ├── context/                     Knowledge infrastructure (discoverability, KM)
+│   │   ├── prompting/                   Portable techniques (any chat window)
+│   │   ├── gems-and-gpts/              Packaged, shareable AI tools (GPTs, Gems)
+│   │   └── agents/                      Autonomous AI participants (lifecycle, skills)
 │   └── ai-adoption/                     Org change and adoption
 └── meta/              Project ontology, taxonomy, and lifecycle framework
 ```
@@ -51,7 +53,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 25 sources captured, 3 fully processed into 14 knowledge entries (all draft). 19 unread sources in the queue. Current entries span Build, Shape, Horizontal Practices, and AI Adoption. Three new horizontal domains (Software Delivery, Agent Lifecycle, Knowledge Management) established — awaiting source processing to populate.
+Early stage. 25 sources captured, 3 fully processed into 14 knowledge entries (all draft). 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Gems & GPTs layer awaiting source processing to populate.
 
 ---
 
