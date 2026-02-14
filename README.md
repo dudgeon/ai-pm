@@ -8,7 +8,7 @@ pattern: domain-source-synthesis
 source_types: [article, video, podcast, book-chapter, organic, note]
 ---
 
-# AI PM
+# AI PM <span class="site-subtitle">{craft, tools, mental models, ideas...}</span>
 
 A knowledge base for AI-augmented product management — how PMs use AI tools effectively and how product organizations adapt to AI-native ways of working. Every idea is traceable back to its sources with quotes, context, and links.
 
@@ -65,9 +65,4 @@ Early stage. 27 sources captured, 4 fully processed into 15 knowledge entries (a
 
 ## Related
 
-- [Professional Development](../README.md) — Parent domain
 - Context: `context/professional.md`
-
----
-
-[← Back to Professional Development](../README.md)

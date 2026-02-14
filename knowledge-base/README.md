@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-13
+updated: 2026-02-14
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -8,6 +8,8 @@ project: ai-pm
 ---
 
 # Knowledge Map
+
+![Product Lifecycle Map](product-lifecycle-map.png)
 
 Extracted knowledge organized by domain. Every entry traces back to one or more sources with quotes, context, and links. See `meta/taxonomy.md` for classification rules.
 
@@ -77,6 +79,8 @@ Making non-code knowledge discoverable and usable to agents and their human cowo
 
 - [Deliberate Context Selection](horizontal/context/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
 - [Sync the People — AI Disruption Profile](horizontal/context/sync-the-people-ai-disruption.md) — Human coordination and alignment; least disrupted PM job (🤖), a durable competitive advantage
+- [Three-Layer Context Disclosure](horizontal/context/three-layer-context-disclosure.md) — Index → summary → full content: the converging pattern for efficient agent retrieval (~10x token savings)
+- [Filesystem as Retrieval Architecture](horizontal/context/filesystem-as-retrieval-architecture.md) — Directory hierarchy as index, frontmatter as metadata, git as temporal layer — a legitimate retrieval system, not a stopgap
 
 ### [Prompting](horizontal/prompting/) — Portable Techniques
 
@@ -99,6 +103,10 @@ Filesystem-paired, autonomous agents — lifecycle management, rules, skills, te
 - [Stepwise Task Execution](horizontal/agents/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
 - [Meta-Skill Pattern](horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
 - [Filesystem as Agent State](horizontal/agents/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem gives agents a shared namespace
+- [Knowledge Capture as Side Effect](horizontal/agents/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections, not a separate task; extends to self-driving documentation `solid`
+- [Agent as Cross-Tool Workflow Hub](horizontal/agents/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations replaces manual cross-tool workflows; becomes the orchestration layer across disconnected SaaS tools
+- [Agent-Mediated Self-Reflection](horizontal/agents/agent-mediated-self-reflection.md) — Using agents to observe your behavioral patterns (conflict avoidance, intention-action gaps, unregistered learnings) from digital exhaust
+- [Progressive Tool Disclosure](horizontal/agents/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy vs flat exposure)
 
 ## AI Adoption & Change Management
 
@@ -108,6 +116,8 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Scale Manager Expertise With AI](ai-adoption/scale-manager-expertise-with-ai.md) — Automate "0-to-60%" feedback so managers focus on high-leverage work
 - [AI Disrupts Strategic PM Skills Most](ai-adoption/ai-disrupts-strategic-pm-skills-most.md) — Counterintuitively, AI most disrupts high-level strategic PM skills, not soft skills
 - [Data Silos Block Enterprise Agent Adoption](ai-adoption/data-silos-block-agent-adoption.md) — Enterprise data fragmented across SaaS tools is the primary barrier to agent rollout, not model capability
+- [Tool Identity as Adoption Gate](ai-adoption/tool-identity-as-adoption-gate.md) — When a capable AI tool has narrow adoption, the bottleneck may be naming/branding/positioning, not capability
+- [Retrieval Infrastructure Graduation](ai-adoption/retrieval-infrastructure-graduation.md) — Tiered path from filesystem-only → semantic search → knowledge graph, with graduation criteria for each transition
 
 ---
 

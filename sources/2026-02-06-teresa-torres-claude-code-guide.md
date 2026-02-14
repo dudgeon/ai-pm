@@ -33,7 +33,7 @@ project: ai-pm
 
 ## Notes
 
-*Your annotations, reactions, questions, disagreements. Written during or after reading.*
+- **Cross-reference**: In [Lenny's "Everyone Should Use Claude Code More"](2026-02-13-everyone-should-use-claude-code-more.md) (#12), Torres describes her writing workflow: "I now write all of my content with Claude Code in VS Code. We iterate on an outline, it helps me improve the hook, it conducts research for me and adds citations to my outline, and it reviews and gives feedback on each section as I write." Related pattern: Helen Lee Kupp (#9 in same article) describes a voice-notes → structured-content pipeline (stroller walks → research themes → articles → LinkedIn posts). When processing this source, consider extracting a "voice/thought → structured content" technique and cross-referencing both.
 
 ## Raw Content
 

@@ -53,12 +53,12 @@ Master index of all source material. Sortable by status, type, author, and date.
 | read | [2026-02-09 Scaling People to Scaling Agents](2026-02-09-scaling-people-to-scaling-agents.md) | Geoff Dudgeon, Claude Opus 4.6 | organic | 2026-02-09 | — |
 | unread | [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) | Geoff Dudgeon | note | 2026-02-09 | — |
 | unread | [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) | OpenAI | article | 2026-02-13 | — |
-| unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
+| processed | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | [Tool Identity as Adoption Gate](../knowledge-base/ai-adoption/tool-identity-as-adoption-gate.md), [Agent as Cross-Tool Workflow Hub](../knowledge-base/horizontal/agents/agent-as-cross-tool-workflow-hub.md), [Agent-Mediated Self-Reflection](../knowledge-base/horizontal/agents/agent-mediated-self-reflection.md), [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md) (enriched) |
 | processed | [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) | Claire Vo (ChatPRD) | article | 2026-02-14 | [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) |
 | processed | [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) | @mernit | article | 2026-02-14 | [Filesystem as Agent State](../knowledge-base/horizontal/agents/filesystem-as-agent-state.md), [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md) |
 | processed | [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) | Nader Dabit (@dabit3) | article | 2026-02-14 | [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md) |
 | unread | [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) | Pedro (@sillydarket) | article | 2026-02-14 | — |
-| unread | [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) | Geoff Dudgeon, Claude | note | 2026-02-14 | — |
+| processed | [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) | Geoff Dudgeon, Claude | note | 2026-02-14 | [Three-Layer Context Disclosure](../knowledge-base/horizontal/context/three-layer-context-disclosure.md), [Filesystem as Retrieval Architecture](../knowledge-base/horizontal/context/filesystem-as-retrieval-architecture.md), [Progressive Tool Disclosure](../knowledge-base/horizontal/agents/progressive-tool-disclosure.md), [Retrieval Infrastructure Graduation](../knowledge-base/ai-adoption/retrieval-infrastructure-graduation.md) |
 
 ---
 
@@ -83,9 +83,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) — Academic research synthesis on agentic systems, full-lifecycle orchestration, AI-first PM frameworks (Medium)
 - [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) — Identifies "Managing Agents" as a nascent horizontal skill domain — agent selection, onboarding, performance retros, context management (note)
 - [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) — OpenAI built product with 0 manually-written code using Codex agents: 1M lines, 1500 PRs, agent-first engineering, progressive context disclosure, mechanical architecture enforcement (OpenAI)
-- [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) — 50 ways non-technical people use Claude Code; argues it's the best consumer AI product (Lenny's Newsletter, partial — paywalled)
 - [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) — Open-source agent memory modeled on Obsidian: markdown+YAML outperforms specialized memory infra (74% vs 68.5% LoCoMo), typed memory taxonomy, wiki-link knowledge graphs, budget-aware context injection, vault index pattern (@sillydarket / Versatly, X)
-- [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) — Research synthesis on 3-layer retrieval for agent context, context graphs (Graphiti/Zep, GraphRAG), filesystem-as-retrieval-system pattern (Letta), recommendations for home-brain and work-agent-harness (note)
 
 ### Reading
 *None yet.*
@@ -103,15 +101,17 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) — Three workflows for creating Claude Skills; meta-skill factory pattern (ChatPRD) → [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md)
 - [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) — Filesystem-as-state + Claude-as-orchestrator; company-as-filesystem; data silos block agent adoption (@mernit, X) → [Filesystem as Agent State](../knowledge-base/horizontal/agents/filesystem-as-agent-state.md), [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md)
 - [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) — Devin captures team knowledge as side effect of engineer corrections; multi-source knowledge, scoped retrieval, emergent onboarding (Nader Dabit / Cognition, X) → [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md)
+- [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) — 50 non-technical Claude Code use cases; tool identity as adoption gate, cross-tool workflow hub via MCP, agent-mediated self-reflection, self-driving documentation (Lenny's Newsletter) → [Tool Identity as Adoption Gate](../knowledge-base/ai-adoption/tool-identity-as-adoption-gate.md), [Agent as Cross-Tool Workflow Hub](../knowledge-base/horizontal/agents/agent-as-cross-tool-workflow-hub.md), [Agent-Mediated Self-Reflection](../knowledge-base/horizontal/agents/agent-mediated-self-reflection.md), [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/knowledge-capture-as-side-effect.md) (enriched)
+- [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) — 3-layer retrieval pattern, filesystem-as-retrieval-architecture, progressive tool disclosure, retrieval infrastructure graduation path (note) → [Three-Layer Context Disclosure](../knowledge-base/horizontal/context/three-layer-context-disclosure.md), [Filesystem as Retrieval Architecture](../knowledge-base/horizontal/context/filesystem-as-retrieval-architecture.md), [Progressive Tool Disclosure](../knowledge-base/horizontal/agents/progressive-tool-disclosure.md), [Retrieval Infrastructure Graduation](../knowledge-base/ai-adoption/retrieval-infrastructure-graduation.md)
 
 ---
 
 ## Stats
 
 - **Total sources**: 31
-- **Unread**: 21
+- **Unread**: 19
 - **Read (awaiting processing)**: 4
-- **Processed**: 6
-- **Knowledge entries generated**: 19
+- **Processed**: 8
+- **Knowledge entries generated**: 25
 
 *Updated: 2026-02-14*
