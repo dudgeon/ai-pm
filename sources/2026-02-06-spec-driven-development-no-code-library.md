@@ -4,17 +4,17 @@ created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
 template_version: 2
-tags: [source, ai-pm-craft, spec-driven-development, ai-coding]
+tags: [source, ai-pm, spec-driven-development, ai-coding]
 status: read
 source_type: article
 source_url: "https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-spec-driven-development-no-code-library.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-spec-driven-development-no-code-library.md"
 author: "Drew Breunig"
 published: 2026-01-08
 discovered: 2026-02-06
 summary: "whenwords library ships specs + tests with zero code — AI agents implement in any language from SPEC.md and tests.yaml. Works for simple, well-bounded utilities; breaks down for complex frameworks needing perf optimization, community support, iterative debugging, and security patches. PM question: which product components are 'implement and forget' utilities vs foundations requiring traditional dev investment?"
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # A Software Library with No Code

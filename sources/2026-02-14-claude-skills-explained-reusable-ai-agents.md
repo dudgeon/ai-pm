@@ -4,7 +4,7 @@ created: 2026-02-14
 updated: 2026-02-14
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: processed
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/claude-skills-explained"
@@ -14,7 +14,7 @@ published: 2026-02-14
 discovered: 2026-02-14
 summary: "Walkthrough of three workflows for creating Claude Skills: using Claude's built-in skill creator (educational but impractical), using Cursor + Claude Code with a meta-skill (recommended power method), and uploading zipped skills to the Claude web UI. Demonstrates a meta-skill pattern—a skill that generates other skills—and shows changelog-to-newsletter and demo-to-follow-up as concrete examples."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Claude Skills Explained: My Workflow for Creating Reusable AI Agents with Cursor and Claude Code
@@ -68,7 +68,7 @@ Walkthrough of three workflows for creating Claude Skills — Anthropic's featur
 
 - [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently; factory pattern for agent skill creation
 
-## Relevance to AI PM Craft
+## Relevance to AI PM
 
 - **horizontal/agents**: Meta-skill pattern is a concrete example of agent skill composition and factory patterns
 - **horizontal/context**: Skills as a structured approach to context management — bundling instructions, templates, and validation together

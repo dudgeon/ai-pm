@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: newsletter
 source_url: "https://www.news.aakashg.com/p/marily-nika-podcast"
@@ -15,7 +15,7 @@ published: 2026-01-11
 discovered: 2026-02-08
 summary: "Marily Nika's six-tool AI PM stack: Google AI Studio (rapid prototyping → build first, PRD second), Opal (natural language to mini-apps), NotebookLM (domain expertise from PDFs/videos), Perplexity (Reddit-filtered user research), ChatGPT (custom PRD-generating GPTs), Fireflies (meeting transcription). Key career advice: 'be like a crab' — move adjacent, don't start from scratch."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Google AIPM's Complete AI Tool Stack for Product Managers

@@ -4,7 +4,7 @@ created: 2026-02-09
 updated: 2026-02-09
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: read
 source_type: organic
 source_url: ""
@@ -14,7 +14,7 @@ published:
 discovered: 2026-02-09
 summary: "Maps Claire Hughes Johnson's Scaling People management framework to AI agent management with high fidelity. Introduces five-mechanism layer (rules, skills, tools, workflows, context), retro pattern as core management loop, trust tiers with graduation, skill-reliability matrix, delegation cube (impact × reversibility × mechanism maturity), and attention economics. Argues agent management requires by default the codification CHJ spent 480 pages advocating — the forced-explicit irony."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Scaling People → Scaling Agents

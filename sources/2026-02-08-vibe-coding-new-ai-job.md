@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: read
 source_type: podcast/newsletter
 source_url: "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code"
@@ -14,7 +14,7 @@ published: 2026-02-08
 discovered: 2026-02-08
 summary: "Lazar Jovanovic, a full-time professional vibe coder at Lovable, breaks down how he ships production-quality products using only AI with no coding background. Covers PRD/markdown systems for agent alignment, parallel prototyping, 4x4 debugging workflow, and the convergence of product/engineering/design roles."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Getting Paid to Vibe Code: Inside the New AI-Era Job
@@ -53,7 +53,7 @@ Key takeaways to explore further:
 - "Genie and three wishes" mental model for working within AI limitations
 
 Next steps:
-- [ ] Extract key ideas into ai-pm-craft knowledge base
+- [ ] Extract key ideas into ai-pm knowledge base
 - [ ] Consider how these workflows apply to work-agent-harness framework
 - [ ] Review the Lovable PRD/base prompt generators referenced
 

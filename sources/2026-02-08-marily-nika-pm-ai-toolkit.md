@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://www.lennysnewsletter.com/p/pms-who-use-ai-will-replace-those"
@@ -15,7 +15,7 @@ published: 2025-12-01
 discovered: 2026-02-08
 summary: "Google AI PM Marily Nika demonstrates end-to-end AI workflow: Reddit research via Perplexity → PRD via custom GPT → prototype via v0.dev → video via Flow/Sora — all in ~20 minutes. Key insight: skip the PRD first, prototype first, then write the PRD. Tool-hopping between specialized AI apps beats single-platform use. Already cited in lifecycle-framework-v2 for workflow inversion."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # "PMs who use AI will replace those who don't": Google's AI Product Lead on the New PM Toolkit

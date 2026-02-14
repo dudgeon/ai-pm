@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://www.productledalliance.com/ai-augmented-product-development/"
@@ -14,7 +14,7 @@ published: 2025-07-29
 discovered: 2026-02-08
 summary: "Maps AI tools across the full product development cycle: ideation (ChatGPT as brainstorming partner), market research (sentiment analysis, simulated user scenarios), MVP design (Visily/Uizard/Galileo AI for wireframes from descriptions), development (Copilot), launch (CI/CD anomaly monitoring, AI-generated release comms), post-launch (ML-powered usage patterns, A/B testing orchestration). Strong lifecycle mapping — one of the most structured treatments. Already cited in lifecycle-framework-v2."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Implementing an AI-Augmented Product Development Cycle

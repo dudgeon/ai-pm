@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: newsletter
 source_url: "https://www.lennysnewsletter.com/p/make-product-management-fun-again"
@@ -14,7 +14,7 @@ published: 2025-04-29
 discovered: 2026-02-08
 summary: "Practical guide to AI agents for PMs. Defines an 'agentic spectrum' from reactive to autonomous. Five design principles for agent planning: self-understanding, scope reduction, risk mitigation, context provision, raw data preservation. Step-by-step Zapier Agent tutorial for automated meeting prep. Includes meta-prompt for translating PM needs across automation platforms."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Make Product Management Fun Again with AI Agents

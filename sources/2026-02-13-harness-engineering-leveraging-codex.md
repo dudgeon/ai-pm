@@ -4,17 +4,17 @@ created: 2026-02-13
 updated: 2026-02-13
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft, article]
+tags: [source, ai-pm, article]
 status: unread
 source_type: article
 source_url: "https://openai.com/index/harness-engineering/"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-13-harness-engineering-leveraging-codex.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-13-harness-engineering-leveraging-codex.md"
 author: "OpenAI"
 published: 2026-02-13
 discovered: 2026-02-13
 summary: "OpenAI built an internal product with 0 manually-written code using Codex agents over 5 months — 1M lines, 1500 PRs, 3 engineers. Covers agent-first engineering: redefining engineer role, progressive context disclosure, repository as system of record, enforcing architecture mechanically, entropy management."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Harness Engineering: Leveraging Codex in an Agent-First World
@@ -42,7 +42,7 @@ Key topics:
 
 ## Notes
 
-- Context from user: "add to ai-pm-craft / horizontal / software development methodologies"
+- Context from user: "add to ai-pm / horizontal / software development methodologies"
 - Particularly relevant to: agent lifecycle management, context management, software delivery methodology
 - "Give Codex a map, not a 1,000-page instruction manual" — aligns with home-brain's own CLAUDE.md philosophy
 - 6+ hour single agent runs while humans sleep

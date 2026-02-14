@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://medium.com/@davidgopp/beyond-the-pillars-the-next-frontier-of-ai-driven-digital-products-2025-and-beyond-025d8c07d599"
@@ -14,7 +14,7 @@ published: 2026-01-05
 discovered: 2026-02-08
 summary: "Follow-up to Gopp's 'five pillars for mastering AI in digital products.' Synthesizes 2024-2025 academic research on agentic systems, full-lifecycle orchestration, and AI-first product management frameworks. Focuses on the shift from AI as feature enhancement to AI as structural product element. Medium paywall — needs manual reading."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Beyond the Pillars: The Next Frontier of AI-Driven Digital Products (2025 and Beyond)

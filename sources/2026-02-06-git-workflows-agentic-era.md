@@ -4,17 +4,17 @@ created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
 template_version: 2
-tags: [source, ai-pm-craft, organic]
+tags: [source, ai-pm, organic]
 status: read
 source_type: article
 source_url: ""
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-git-workflows-agentic-era.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-git-workflows-agentic-era.md"
 author: "Dudgeon (organic)"
 published: 2026-02-06
 discovered: 2026-02-06
 summary: "Two git patterns for agentic workflows: (1) subtree push to publish private repo folders to public repos with history intact, (2) submodules to import external repos as agent context. CLAUDE.md bridges both contexts. Prediction: team knowledge repos become first-class infra; submodules get reputation upgrade because agents handle the ceremony humans find annoying."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Git Workflows for the Agentic Era: Sharing Context Across Repository Boundaries
@@ -53,9 +53,9 @@ Both patterns optimize for the same thing: letting you work in one place while y
 I maintain a private repo called `home-brain`—a personal knowledge base, project archive, and workspace. It contains things I want to keep private, but also material I want to share:
 
 - `claude/` — my Claude Code configuration, instructions, and skills
-- `ai-pm-craft/` — notes on how AI is changing product management
+- `ai-pm/` — notes on how AI is changing product management
 
-I want to publish both of these to separate public repos (`home-brain-config` and `ai-pm-craft`) so others can see and use them. But I don't want to context-switch between repos while working. I want to edit everything in `home-brain` and have the public repos stay in sync automatically.
+I want to publish both of these to separate public repos (`home-brain-config` and `ai-pm`) so others can see and use them. But I don't want to context-switch between repos while working. I want to edit everything in `home-brain` and have the public repos stay in sync automatically.
 
 ---
 
@@ -75,8 +75,8 @@ If you want explicit control over when things go public:
 # Push claude/ folder to home-brain-config repo
 git subtree push --prefix=claude git@github.com:youruser/home-brain-config.git main
 
-# Push ai-pm-craft/ folder to ai-pm-craft repo
-git subtree push --prefix=ai-pm-craft git@github.com:youruser/ai-pm-craft.git main
+# Push ai-pm/ folder to ai-pm repo
+git subtree push --prefix=ai-pm git@github.com:youruser/ai-pm.git main
 ```
 
 Your workflow: edit in `home-brain`, commit and push normally, then run the subtree push when you're ready to publish.
@@ -94,7 +94,7 @@ on:
     branches: [main]
     paths:
       - 'claude/**'
-      - 'ai-pm-craft/**'
+      - 'ai-pm/**'
 
 jobs:
   sync-claude:
@@ -110,18 +110,18 @@ jobs:
           git config user.email "actions@github.com"
           git subtree push --prefix=claude https://x-access-token:${{ secrets.PUBLIC_REPO_TOKEN }}@github.com/youruser/home-brain-config.git main
 
-  sync-ai-pm-craft:
-    if: contains(github.event.head_commit.modified, 'ai-pm-craft/') || contains(github.event.head_commit.added, 'ai-pm-craft/')
+  sync-ai-pm:
+    if: contains(github.event.head_commit.modified, 'ai-pm/') || contains(github.event.head_commit.added, 'ai-pm/')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Push to ai-pm-craft
+      - name: Push to ai-pm
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git subtree push --prefix=ai-pm-craft https://x-access-token:${{ secrets.PUBLIC_REPO_TOKEN }}@github.com/youruser/ai-pm-craft.git main
+          git subtree push --prefix=ai-pm https://x-access-token:${{ secrets.PUBLIC_REPO_TOKEN }}@github.com/youruser/ai-pm.git main
 ```
 
 To set this up:
@@ -131,7 +131,7 @@ To set this up:
 3. Create the public repos (can be empty)
 4. Commit the workflow file
 
-Now every push to `main` that touches `claude/` or `ai-pm-craft/` automatically syncs to the public repos.
+Now every push to `main` that touches `claude/` or `ai-pm/` automatically syncs to the public repos.
 
 ### CLAUDE.md in Published Folders
 

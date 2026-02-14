@@ -1,11 +1,11 @@
 ---
 created: 2026-02-09
 updated: 2026-02-09
-tags: [index, ai-pm-craft, horizontal, gems-and-gpts]
+tags: [index, ai-pm, horizontal, gems-and-gpts]
 status: active
 domain: horizontal
 horizontal_domain: gems-and-gpts
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Gems & GPTs — Packaged AI Tools

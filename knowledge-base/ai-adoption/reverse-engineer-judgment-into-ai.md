@@ -3,13 +3,13 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, custom-gpts, management]
+tags: [knowledge, ai-pm, technique, custom-gpts, management]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
 domain: ai-adoption
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Reverse-Engineer Your Judgment into AI

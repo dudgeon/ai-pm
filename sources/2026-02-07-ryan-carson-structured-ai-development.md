@@ -4,18 +4,18 @@ created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft, cursor, structured-development]
+tags: [source, ai-pm, cursor, structured-development]
 status: processed
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-ryan-carson-structured-ai-development.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-07-ryan-carson-structured-ai-development.md"
 author: "Ryan Carson"
 host: "Claire Vo"
 published: 2025-05-26
 discovered: 2026-02-07
 summary: "Three-file rule system for structured AI dev: generate PRD (templatized, AI asks clarifying questions) → generate task list (nested checkboxes for observability) → execute one-by-one with human approval. Core thesis: 'vibe coding' fails at scale because devs rush past context. Secondary insight: use Repo Prompt for deliberate context selection ('glass box') over automatic context ('black box')."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Ryan Carson's 3-Step Playbook for Structured AI Development in Cursor

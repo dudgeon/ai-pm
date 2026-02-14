@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://medium.com/ai-for-product-people/a-framework-for-ai-product-management-df72f8a584de"
@@ -14,7 +14,7 @@ published: 2024-03-02
 discovered: 2026-02-08
 summary: "Introduces the U.S.I.D.O. Framework — Understand, Strategize, Ideate, Define, Optimize — mapping AI assistance across the product lifecycle. Part of a multi-article series with companion Custom GPTs for each phase. Strong lifecycle mapping potential."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # The U.S.I.D.O. Framework for AI Product Managers

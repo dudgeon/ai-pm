@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: processed
 source_type: newsletter
 source_url: "https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management"
@@ -14,7 +14,7 @@ published: 2024-04-09
 discovered: 2026-02-08
 summary: "Argues counterintuitively that AI most disrupts high-level strategic PM skills (strategy 🤖🤖🤖🤖, vision 🤖🤖🤖🤖), not soft skills. Organizes PM work into Shape/Ship/Sync, each rated for AI disruption. Soft skills become MORE valuable as differentiators."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # How AI Will Impact Product Management

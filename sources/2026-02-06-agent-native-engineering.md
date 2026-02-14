@@ -4,17 +4,17 @@ created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
 template_version: 2
-tags: [source, ai-pm-craft, agent-native, engineering-management]
+tags: [source, ai-pm, agent-native, engineering-management]
 status: unread
 source_type: article
 source_url: "https://www.generalintelligencecompany.com/writing/agent-native-engineering"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-agent-native-engineering.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-agent-native-engineering.md"
 author: "Andrew Pignanelli"
 published: 2026-02-05
 discovered: 2026-02-06
 summary: "Orgs should restructure around agents as ICs, not just give engineers coding tools. Three task tiers: simple (one-shot), manageable (async agent + feedback), complex (sync). Kill two-engineer code review; combat slop with rulesets/tests/linters. $4k/eng/mo token spend yields 3-4x output. PMs/designers become the bottleneck as features ship at speed of thought."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Agent-Native Engineering

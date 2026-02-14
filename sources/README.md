@@ -1,13 +1,13 @@
 ---
 created: 2026-02-05
 updated: 2026-02-13
-tags: [index, ai-pm-craft, sources]
+tags: [index, ai-pm, sources]
 status: active
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
-# AI PM Craft — Source Registry
+# AI PM — Source Registry
 
 Master index of all source material. Sortable by status, type, author, and date.
 

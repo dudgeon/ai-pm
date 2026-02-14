@@ -3,13 +3,13 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft]
+tags: [knowledge, ai-pm]
 status: draft
 entry_type: insight
 origin: sourced
 featured: false
 domain: ai-adoption
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # AI Disrupts Strategic PM Skills Most

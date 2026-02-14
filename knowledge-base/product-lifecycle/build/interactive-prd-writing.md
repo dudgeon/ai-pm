@@ -3,7 +3,7 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, prd, requirements]
+tags: [knowledge, ai-pm, technique, prd, requirements]
 status: draft
 entry_type: technique
 origin: sourced
@@ -11,7 +11,7 @@ featured: false
 domain: product-lifecycle
 lifecycle_phase: build
 component: feature-specification-writing
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Interactive PRD Writing with AI

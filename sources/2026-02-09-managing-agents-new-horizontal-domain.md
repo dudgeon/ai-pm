@@ -4,17 +4,17 @@ created: 2026-02-09
 updated: 2026-02-09
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft, note]
+tags: [source, ai-pm, note]
 status: unread
 source_type: note
 source_url: ""
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-09-managing-agents-new-horizontal-domain.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-09-managing-agents-new-horizontal-domain.md"
 author: "Geoff Dudgeon"
 published: 2026-02-09
 discovered: 2026-02-09
 summary: "Identifies 'Managing Agents' as a nascent horizontal skill domain for AI PMs — agent selection, onboarding, performance retros, context management, skill sharing. Needs deep development."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Managing Agents — New Horizontal Skill Domain

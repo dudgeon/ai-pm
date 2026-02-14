@@ -3,14 +3,14 @@ created: 2026-02-13
 updated: 2026-02-13
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft]
+tags: [knowledge, ai-pm]
 status: draft
 entry_type: mental-model
 origin: sourced
 featured: false
 domain: product-lifecycle
 lifecycle_phase: build
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Ship the Product — AI Disruption Profile

@@ -1,11 +1,11 @@
 ---
 created: 2026-02-08
 updated: 2026-02-13
-tags: [meta, ai-pm-craft, taxonomy]
+tags: [meta, ai-pm, taxonomy]
 status: active
 ---
 
-# AI PM Craft — Taxonomy
+# AI PM — Taxonomy
 
 Canonical reference for classifying knowledge entries. Used by the source processing skill and knowledge entry template.
 

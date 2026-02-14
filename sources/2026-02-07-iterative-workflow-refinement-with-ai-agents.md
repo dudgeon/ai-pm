@@ -4,17 +4,17 @@ created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
 template_version: 2
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: organic
 source_url: ""
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-iterative-workflow-refinement-with-ai-agents.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-07-iterative-workflow-refinement-with-ai-agents.md"
 author: "Geoff Dudgeon and Claude"
 published: 2026-02-07
 discovered: 2026-02-07
 summary: "Case study of iteratively refining an AI agent's skill file (rules governing source→knowledge extraction) over 3 rounds: decomposition guidance, portable prompting patterns, then ontology restructuring. Core thesis: the skill file is the real product — encode feedback as principles, not patches, so every future run benefits. Expect 3 passes; work at two levels (output + meta-rules) simultaneously."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Teaching an AI Agent to Think Like You: Iterative Workflow Refinement in Practice
@@ -33,7 +33,7 @@ project: ai-pm-craft
 
 ## Notes
 
-*Draft organic source documenting the iterative refinement process used to build the ai-pm-craft knowledge base. Documents three rounds of feedback: decomposition guidance, portable prompting patterns, and ontology restructuring.*
+*Draft organic source documenting the iterative refinement process used to build the ai-pm knowledge base. Documents three rounds of feedback: decomposition guidance, portable prompting patterns, and ontology restructuring.*
 
 ## Raw Content
 
@@ -45,7 +45,7 @@ This post documents a real working session between a product manager and an AI c
 
 ## The Setup
 
-The project is called "ai-pm-craft" — a structured learning system where external sources (articles, podcasts, newsletters) are read, processed, and decomposed into atomic knowledge entries. Think of it as a personal wiki with source lineage: every idea traces back to the specific quote and article that introduced it.
+The project is called "ai-pm" — a structured learning system where external sources (articles, podcasts, newsletters) are read, processed, and decomposed into atomic knowledge entries. Think of it as a personal wiki with source lineage: every idea traces back to the specific quote and article that introduced it.
 
 The system lives in a git repo as markdown files. The AI agent (Claude Code) has a skill file — a markdown document that defines *how* to process sources into knowledge entries. Here's what the initial skill file said about extracting ideas:
 

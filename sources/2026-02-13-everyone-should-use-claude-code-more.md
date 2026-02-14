@@ -4,17 +4,17 @@ created: 2026-02-13
 updated: 2026-02-13
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft, newsletter]
+tags: [source, ai-pm, newsletter]
 status: unread
 source_type: newsletter
 source_url: "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-13-everyone-should-use-claude-code-more.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-13-everyone-should-use-claude-code-more.md"
 author: "Lenny Rachitsky"
 published: 2026-02-13
 discovered: 2026-02-13
 summary: "50 ways non-technical people use Claude Code — from trip planning and home renovation to resume writing and meal prep. Argues Claude Code is the best consumer AI product and everyone should be using it more. Partial content (paywalled beyond item 16)."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Everyone Should Be Using Claude Code More
@@ -51,7 +51,7 @@ Visible use cases include:
 
 ## Notes
 
-- Context from user: "for ai-pm-craft"
+- Context from user: "for ai-pm"
 - **Partial content**: Article is paywalled; only first ~16 use cases captured. Full article has 50 items.
 - Relevant to: Claude Code adoption patterns, non-technical AI usage, consumer AI product design
 - Interesting framing of Claude Code as a consumer product, not just developer tool

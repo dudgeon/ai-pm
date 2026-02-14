@@ -245,7 +245,7 @@ This is where AI's pattern recognition capabilities shine brightest. Curtis Sava
 
 ## Using This Framework as a Taxonomy
 
-When cataloging an AI-PM technique or insight for the ai-pm-craft repository, ask:
+When cataloging an AI-PM technique or insight for the ai-pm repository, ask:
 
 1. **Which phase does this technique primarily augment?** Tag it there.
 2. **Does it span phases?** Use the primary phase and note connections. (e.g., "AI-generated PRDs" lives in Build / Feature Specification Writing but draws from Shape / Prototyping & Risk Reduction.)

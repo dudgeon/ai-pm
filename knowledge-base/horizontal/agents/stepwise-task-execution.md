@@ -3,14 +3,14 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, execution, human-in-the-loop]
+tags: [knowledge, ai-pm, technique, execution, human-in-the-loop]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
 horizontal_domain: agents
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Stepwise Task Execution

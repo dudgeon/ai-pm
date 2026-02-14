@@ -1,10 +1,10 @@
 ---
 created: 2026-02-08
 updated: 2026-02-13
-tags: [index, ai-pm-craft, knowledge-base]
+tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Knowledge Map
@@ -109,4 +109,4 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 
 ---
 
-[← Back to AI PM Craft](../README.md)
+[← Back to AI PM](../README.md)

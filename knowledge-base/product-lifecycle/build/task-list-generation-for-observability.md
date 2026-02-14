@@ -3,7 +3,7 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, observability, stakeholder-engagement]
+tags: [knowledge, ai-pm, technique, observability, stakeholder-engagement]
 status: draft
 entry_type: technique
 origin: sourced
@@ -11,7 +11,7 @@ featured: false
 domain: product-lifecycle
 lifecycle_phase: build
 component: user-story-acceptance-criteria
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Task List Generation for Observability

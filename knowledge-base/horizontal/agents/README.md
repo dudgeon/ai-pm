@@ -1,11 +1,11 @@
 ---
 created: 2026-02-09
 updated: 2026-02-09
-tags: [index, ai-pm-craft, horizontal, agents]
+tags: [index, ai-pm, horizontal, agents]
 status: active
 domain: horizontal
 horizontal_domain: agents
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Agents — Autonomous AI Participants

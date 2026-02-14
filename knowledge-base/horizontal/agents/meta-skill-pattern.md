@@ -3,17 +3,17 @@ created: 2026-02-14
 updated: 2026-02-14
 template: templates/knowledge-entry.md
 template_version: 4
-tags: [knowledge, ai-pm-craft, technique, agents, composability, skill-creation]
+tags: [knowledge, ai-pm, technique, agents, composability, skill-creation]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
 horizontal_domain: agents
-project: ai-pm-craft
+project: ai-pm
 ---
 
-# Meta-Skill Pattern (i.e. Skills to build skills)
+# Meta-Skill Pattern
 
 ## Summary
 

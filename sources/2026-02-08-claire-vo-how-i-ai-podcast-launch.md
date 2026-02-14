@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://www.chatprd.ai/blog/claire-is-the-host-of-how-i-ai-podcast"
@@ -14,7 +14,7 @@ published: 2025-04-23
 discovered: 2026-02-08
 summary: "Announcement post for the 'How I AI' podcast on Lenny's Podcast network — 30-minute episodes with screen-sharing demos of AI workflows. Thin on extractable knowledge (it's a launch announcement), but useful as a meta-reference for the How I AI series that many other sources come from."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Claire Vo Launches "How I AI" Podcast on Lenny's Network

@@ -3,14 +3,14 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, context-engineering]
+tags: [knowledge, ai-pm, technique, context-engineering]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
 horizontal_domain: context
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Deliberate Context Selection

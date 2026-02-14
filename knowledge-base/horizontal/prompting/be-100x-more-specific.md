@@ -3,14 +3,14 @@ created: 2026-02-07
 updated: 2026-02-08
 template: templates/knowledge-entry.md
 template_version: 3
-tags: [knowledge, ai-pm-craft, technique, prompting, refinement]
+tags: [knowledge, ai-pm, technique, prompting, refinement]
 status: draft
 entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
 horizontal_domain: prompting
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # "Be 100x More Specific"

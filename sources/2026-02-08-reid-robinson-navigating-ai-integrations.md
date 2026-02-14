@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://betakit.com/zapiers-reid-robinson-on-navigating-ai-integrations/"
@@ -15,7 +15,7 @@ published: 2024-01-09
 discovered: 2026-02-08
 summary: "Zapier AI lead on practical AI adoption: tie AI to existing 'skeleton-in-the-closet' problems rather than chasing capabilities. ChatGPT integration became Zapier's fastest-growing ever. Formatter with AI enables natural-language data reformatting. Short news interview — limited depth but useful adoption framing."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Zapier's Reid Robinson on Navigating AI Integrations

@@ -1,11 +1,11 @@
 ---
 created: 2026-02-09
 updated: 2026-02-09
-tags: [index, ai-pm-craft, horizontal, context]
+tags: [index, ai-pm, horizontal, context]
 status: active
 domain: horizontal
 horizontal_domain: context
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Context — Knowledge Infrastructure

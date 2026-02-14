@@ -4,18 +4,18 @@ created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft, management, custom-gpts]
+tags: [source, ai-pm, management, custom-gpts]
 status: processed
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md"
 author: "Hilary Gridley"
 host: "Claire Vo"
 published: 2025-05-19
 discovered: 2026-02-07
 summary: "Two approaches to scaling managerial expertise: (1) reverse-engineer implicit quality standards from before/after examples into a custom GPT ('Deck Doctor') that gives consistent criteria-based feedback, (2) use AI as a writing coach via brain dump→thesis validation→blind spot detection→restructure workflow. Portable patterns: 'be 100x more specific' and 'MY job/YOUR job' role delineation."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Hilary Gridley's Playbook for Scaling Yourself with Custom GPTs

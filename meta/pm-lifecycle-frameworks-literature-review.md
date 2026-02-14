@@ -1,10 +1,10 @@
 ---
 created: 2026-02-08
 updated: 2026-02-08
-tags: [meta, ai-pm-craft, literature-review, frameworks]
+tags: [meta, ai-pm, literature-review, frameworks]
 status: active
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Product Lifecycle Frameworks: A Comprehensive Map of Modern PM Models

@@ -4,17 +4,17 @@ created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
 template_version: 2
-tags: [source, ai-pm-craft, product-sense, cursor]
+tags: [source, ai-pm, product-sense, cursor]
 status: unread
 source_type: newsletter
 source_url: "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-build-ai-product-sense.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-build-ai-product-sense.md"
 author: "Tal Raviv, Aman Khan"
 published: 2026-02-03
 discovered: 2026-02-06
 summary: "PMs build AI product sense by using coding agents (Cursor, Claude Code) for non-technical daily work — strategy, prioritization, data analysis. Hands-on exposure to tool calling, RAG, context windows, and context rot builds intuition that reading about AI can't. Includes step-by-step tutorial building a personal productivity OS in Cursor."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # How to Build AI Product Sense

@@ -4,7 +4,7 @@ created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://creatoreconomy.so/p/from-idea-to-product-in-30min-using-ai-agents-claire-vo"
@@ -15,7 +15,7 @@ published: 2025-05-18
 discovered: 2026-02-08
 summary: "Claire Vo demos building a feedback categorization feature for ChatPRD: PRD generation via ChatPRD → implementation delegated to Devin (AI coding agent) asynchronously. Key shift: replaced Cursor with Devin for async delegation ('fixing bugs during morning walks'). Discusses future-proof PM competencies and multiplayer AI agents. Already cited in lifecycle-framework-v2."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # From Idea to Product in 30 Min Using AI Agents

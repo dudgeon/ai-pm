@@ -1,21 +1,21 @@
 ---
 created: 2026-02-05
 updated: 2026-02-13
-tags: [project, ai-pm-craft, product-management, learning]
+tags: [project, ai-pm, product-management, learning]
 status: active
 domain: professional-development
 pattern: domain-source-synthesis
 source_types: [article, video, podcast, book-chapter, organic, note]
 ---
 
-# AI PM Craft
+# AI PM
 
 A knowledge base for AI-augmented product management — how PMs use AI tools effectively and how product organizations adapt to AI-native ways of working. Every idea is traceable back to its sources with quotes, context, and links.
 
 ## Structure
 
 ```
-ai-pm-craft/
+ai-pm/
 ├── sources/           Source material with full attribution and reading status
 ├── knowledge-base/    Extracted knowledge organized by domain
 │   ├── product-lifecycle/               Mapped to six lifecycle phases (vertical)

@@ -1,11 +1,11 @@
 ---
 created: 2026-02-09
 updated: 2026-02-09
-tags: [index, ai-pm-craft, horizontal, prompting]
+tags: [index, ai-pm, horizontal, prompting]
 status: active
 domain: horizontal
 horizontal_domain: prompting
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Prompting — Portable Techniques

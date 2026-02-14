@@ -4,18 +4,18 @@ created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
 template_version: 3
-tags: [source, ai-pm-craft]
+tags: [source, ai-pm]
 status: unread
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/zapier-workflows-for-crm-automation-meeting-prep"
-archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-zapier-workflows-crm-automation-meeting-prep.md"
+archive_url: "domains/professional-development/ai-pm/sources/2026-02-07-zapier-workflows-crm-automation-meeting-prep.md"
 author: "Reid Robinson"
 host: "Claire Vo"
 published: 2026-02-04
 discovered: 2026-02-07
 summary: "Zapier PM Reid Robinson demos three practical AI workflows: MCP-powered CRM automation (15min task→copy-paste), always-on meeting prep assistant (deterministic Zap pulling Databricks+calendar data), and a self-improving customer feedback loop (closed tickets→FAQ extraction→human review→chatbot enrichment). Key framework: combine agentic (chat-based MCP) with deterministic (scheduled Zap) approaches."
 domain: professional-development
-project: ai-pm-craft
+project: ai-pm
 ---
 
 # Reid Robinson's Zapier Workflows for CRM Automation, Meeting Prep, and Feedback Loops
