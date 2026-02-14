@@ -18,7 +18,13 @@ A knowledge base for AI-augmented product management — how PMs use AI tools ef
 ai-pm-craft/
 ├── sources/           Source material with full attribution and reading status
 ├── knowledge-base/    Extracted knowledge organized by domain
-│   ├── product-lifecycle/{phase}/       Mapped to six lifecycle phases (vertical)
+│   ├── product-lifecycle/               Mapped to six lifecycle phases (vertical)
+│   │   ├── discover/                    What problems are worth solving?
+│   │   ├── frame/                       What does success look like?
+│   │   ├── shape/                       What solution takes form?
+│   │   ├── build/                       How do we ship with clarity?
+│   │   ├── release/                     How do we put this into the world?
+│   │   └── measure/                     Did it work, and what's next?
 │   ├── horizontal/                      Cross-cutting knowledge areas (stack by delivery mechanism)
 │   │   ├── context/                     Knowledge infrastructure (discoverability, KM)
 │   │   ├── prompting/                   Portable techniques (any chat window)
