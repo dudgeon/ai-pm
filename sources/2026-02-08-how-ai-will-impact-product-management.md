@@ -29,7 +29,9 @@ Rachitsky challenges conventional wisdom about which PM skills AI will disrupt, 
 ## Key Ideas Extracted
 
 - [[ai-disrupts-strategic-pm-skills-most]] — The counterintuitive insight that AI disrupts high-level strategic PM skills most, not soft skills
-- [[shape-ship-sync-pm-work-model]] — Three-job mental model for organizing PM work with AI disruption profiles
+- [[shape-the-product-ai-disruption]] — Shape: determining what to build (🤖🤖🤖) — product-lifecycle/shape
+- [[ship-the-product-ai-disruption]] — Ship: helping the team deliver (🤖🤖) — product-lifecycle/build
+- [[sync-the-people-ai-disruption]] — Sync: human coordination and alignment (🤖) — horizontal/practices
 
 ## Notes
 

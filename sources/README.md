@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-08
+updated: 2026-02-13
 tags: [index, ai-pm-craft, sources]
 status: active
 domain: professional-development
@@ -40,7 +40,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | processed | [2026-02-07 Ryan Carson Structured AI Development](2026-02-07-ryan-carson-structured-ai-development.md) | Claire Vo (Ryan Carson) | article | 2026-02-07 | [Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md), [Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md), [Stepwise Task Execution](../knowledge-base/horizontal/stepwise-task-execution.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md), [Deliberate Context Selection](../knowledge-base/horizontal/deliberate-context-selection.md) |
 | processed | [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md) | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md), [Be 100x More Specific](../knowledge-base/horizontal/be-100x-more-specific.md), [My Job Your Job Role Delineation](../knowledge-base/horizontal/my-job-your-job-role-delineation.md), [AI as Writing Coach](../knowledge-base/horizontal/ai-as-writing-coach.md), [Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md) |
 | unread | [2026-02-08 USIDO Framework AI Product Management](2026-02-08-usido-framework-ai-product-management.md) | Curtis Savage | article | 2026-02-08 | — |
-| processed | [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) | Lenny Rachitsky | newsletter | 2026-02-08 | [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape/Ship/Sync PM Work Model](../knowledge-base/horizontal/shape-ship-sync-pm-work-model.md) |
+| processed | [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) | Lenny Rachitsky | newsletter | 2026-02-08 | [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md), [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md), [Sync the People](../knowledge-base/horizontal/practices/sync-the-people-ai-disruption.md) |
 | unread | [2026-02-08 Marily Nika PM AI Toolkit](2026-02-08-marily-nika-pm-ai-toolkit.md) | Claire Vo (Marily Nika) | article | 2026-02-08 | — |
 | unread | [2026-02-08 Marily Nika AI Tool Stack](2026-02-08-marily-nika-ai-tool-stack.md) | Aakash Gupta (Marily Nika) | newsletter | 2026-02-08 | — |
 | unread | [2026-02-08 AI Augmented Product Development Cycle](2026-02-08-ai-augmented-product-development-cycle.md) | Ashay Satav | article | 2026-02-08 | — |
@@ -51,6 +51,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) | David Gopp | article | 2026-02-08 | — |
 | read | [2026-02-08 Getting Paid to Vibe Code](2026-02-08-vibe-coding-new-ai-job.md) | Lenny Rachitsky (Lazar Jovanovic) | podcast/newsletter | 2026-02-08 | — |
 | unread | [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) | Geoff Dudgeon | note | 2026-02-09 | — |
+| unread | [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) | OpenAI | article | 2026-02-13 | — |
+| unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
 
 ---
 
@@ -74,6 +76,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-08 Claire Vo Idea to Product 30 Min](2026-02-08-claire-vo-idea-to-product-30-min.md) — PRD, Devin (AI coding agent) async delegation; replaced Cursor with Devin for async workflow; future-proof PM competencies (Creator Economy)
 - [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) — Academic research synthesis on agentic systems, full-lifecycle orchestration, AI-first PM frameworks (Medium)
 - [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) — Identifies "Managing Agents" as a nascent horizontal skill domain — agent selection, onboarding, performance retros, context management (note)
+- [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) — OpenAI built product with 0 manually-written code using Codex agents: 1M lines, 1500 PRs, agent-first engineering, progressive context disclosure, mechanical architecture enforcement (OpenAI)
+- [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) — 50 ways non-technical people use Claude Code; argues it's the best consumer AI product (Lenny's Newsletter, partial — paywalled)
 
 ### Reading
 *None yet.*
@@ -86,16 +90,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 ### Processed
 - [2026-02-07 Ryan Carson Structured AI Development](2026-02-07-ryan-carson-structured-ai-development.md) — Three-file system for PRD, tasks, execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md), [Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md), [Stepwise Task Execution](../knowledge-base/horizontal/stepwise-task-execution.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md), [Deliberate Context Selection](../knowledge-base/horizontal/deliberate-context-selection.md)
 - [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md) — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md), [Be 100x More Specific](../knowledge-base/horizontal/be-100x-more-specific.md), [My Job Your Job Role Delineation](../knowledge-base/horizontal/my-job-your-job-role-delineation.md), [AI as Writing Coach](../knowledge-base/horizontal/ai-as-writing-coach.md), [Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md)
-- [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most; Shape/Ship/Sync three-job model with disruption ratings (Lenny's Newsletter) → [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape/Ship/Sync PM Work Model](../knowledge-base/horizontal/shape-ship-sync-pm-work-model.md)
+- [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most; Shape/Ship/Sync three-job model with disruption ratings (Lenny's Newsletter) → [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md), [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md), [Sync the People](../knowledge-base/horizontal/practices/sync-the-people-ai-disruption.md)
 
 ---
 
 ## Stats
 
-- **Total sources**: 23
-- **Unread**: 17
+- **Total sources**: 25
+- **Unread**: 19
 - **Read (awaiting processing)**: 3
 - **Processed**: 3
-- **Knowledge entries generated**: 12
+- **Knowledge entries generated**: 14
 
-*Updated: 2026-02-08*
+*Updated: 2026-02-13*
