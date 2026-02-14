@@ -1,4 +1,5 @@
 ---
+title: "Hilary Gridley's Playbook for Scaling Yourself with Custom GPTs"
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md

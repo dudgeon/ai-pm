@@ -1,4 +1,5 @@
 ---
+title: ""PMs who use AI will replace those who don't": Google's AI Product Lead on the New PM Toolkit"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

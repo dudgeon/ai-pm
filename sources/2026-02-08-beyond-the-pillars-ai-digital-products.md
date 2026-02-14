@@ -1,4 +1,5 @@
 ---
+title: "Beyond the Pillars: The Next Frontier of AI-Driven Digital Products (2025 and Beyond)"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

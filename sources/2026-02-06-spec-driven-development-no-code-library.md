@@ -1,4 +1,5 @@
 ---
+title: "A Software Library with No Code"
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md

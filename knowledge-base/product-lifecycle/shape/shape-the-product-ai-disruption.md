@@ -38,10 +38,10 @@ project: ai-pm-craft
 
 ## Sources
 
-### From: [[2026-02-08-how-ai-will-impact-product-management]]
+### From: [How AI Will Impact Product Management](../../../sources/2026-02-08-how-ai-will-impact-product-management.md)
 **Attribution**: Lenny Rachitsky
 **What this source adds**: Original formulation of Shape as one of three PM jobs, with granular AI disruption ratings per sub-task.
-**Links**: [Original](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management) | [[2026-02-08-how-ai-will-impact-product-management|Archive]]
+**Links**: [Original](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management) | [Archive](../../../sources/2026-02-08-how-ai-will-impact-product-management.md)
 
 ## Related
 

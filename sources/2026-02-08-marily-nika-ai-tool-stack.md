@@ -1,4 +1,5 @@
 ---
+title: "Google AIPM's Complete AI Tool Stack for Product Managers"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

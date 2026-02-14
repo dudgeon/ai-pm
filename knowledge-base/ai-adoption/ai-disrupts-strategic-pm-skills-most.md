@@ -30,12 +30,12 @@ Simultaneously, invest in developing soft skills as a conscious differentiator �
 
 ## Sources
 
-### From: [[2026-02-08-how-ai-will-impact-product-management]]
+### From: [How AI Will Impact Product Management](../../sources/2026-02-08-how-ai-will-impact-product-management.md)
 **Key quote**: "AI will have the most profound impact on the high-level (and historically most valued) skills of product management: developing a strategy, crafting a vision, identifying new opportunities, and setting goals. Furthermore, soft skills like product sense, communication, creativity, and being the glue that enables a team to operate at their very best will become even more important (and a differentiator among companies)."
 **Attribution**: Lenny Rachitsky
 **What this source adds**: The foundational articulation of this counterintuitive insight, backed by a granular 5-point disruption rating across PM sub-tasks. Rachitsky uses AlphaGo's Move 37 as evidence that AI discovers strategic patterns humans miss, and cites Jensen Huang and Sam Altman as convergent signals that historically high-level skills are being solved by AI.
-**Links**: [Original](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management) | [[2026-02-08-how-ai-will-impact-product-management|Archive]]
+**Links**: [Original](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management) | [Archive](../../sources/2026-02-08-how-ai-will-impact-product-management.md)
 
 ## Related
 
-- [[shape-ship-sync-pm-work-model]] — The organizational framework within which this disruption analysis operates
+- [Shape/Ship/Sync PM Work Model](../../sources/2026-02-08-how-ai-will-impact-product-management.md) — The organizational framework within which this disruption analysis operates

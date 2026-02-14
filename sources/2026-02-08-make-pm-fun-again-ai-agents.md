@@ -1,4 +1,5 @@
 ---
+title: "Make Product Management Fun Again with AI Agents"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

@@ -41,14 +41,14 @@ The mechanism: a rule file instructs the AI to first propose a high-level plan a
 
 ## Sources
 
-### From: [[2026-02-07-ryan-carson-structured-ai-development]]
+### From: [Ryan Carson's Structured AI Development](../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 **Key quote**: (on the AI proposing a high-level plan first and asking for approval) "This human-in-the-loop step makes sure the plan is headed in the right direction."
 **Attribution**: Ryan Carson
 **What this source adds**: Carson's `generate_tasks.md` rule file is the concrete implementation. The key design choice is the two-phase generation: high-level plan → approval → detailed tasks. This prevents the AI from going deep on a wrong approach. The Markdown checkbox format is simple but powerful — it creates a living document that tracks progress as the AI works.
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [Archive](../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 
 ## Related
 
-- [[interactive-prd-writing]]
-- [[stepwise-task-execution]]
-- [[context-first-development]]
+- [Interactive PRD Writing](interactive-prd-writing.md)
+- [Stepwise Task Execution](../../horizontal/practices/stepwise-task-execution.md)
+- [Context-First Development](context-first-development.md)

@@ -1,4 +1,5 @@
 ---
+title: "How AI Will Impact Product Management"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md
@@ -28,14 +29,14 @@ Rachitsky challenges conventional wisdom about which PM skills AI will disrupt, 
 
 ## Key Ideas Extracted
 
-- [[ai-disrupts-strategic-pm-skills-most]] — The counterintuitive insight that AI disrupts high-level strategic PM skills most, not soft skills
-- [[shape-the-product-ai-disruption]] — Shape: determining what to build (🤖🤖🤖) — product-lifecycle/shape
-- [[ship-the-product-ai-disruption]] — Ship: helping the team deliver (🤖🤖) — product-lifecycle/build
-- [[sync-the-people-ai-disruption]] — Sync: human coordination and alignment (🤖) — horizontal/practices
+- [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md) — The counterintuitive insight that AI disrupts high-level strategic PM skills most, not soft skills
+- [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md) — Shape: determining what to build (🤖🤖🤖) — product-lifecycle/shape
+- [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md) — Ship: helping the team deliver (🤖🤖) — product-lifecycle/build
+- [Sync the People](../knowledge-base/horizontal/practices/sync-the-people-ai-disruption.md) — Sync: human coordination and alignment (🤖) — horizontal/practices
 
 ## Notes
 
-This source is heavily cited in [[lifecycle-framework-v2]] — Lenny's Shape/Ship/Sync framework and AI disruption ratings are referenced throughout multiple phases. The "Ship" and "Sync" sections are behind the Lenny's Newsletter paywall; key quotes and ratings for those sections were captured from cross-references in the lifecycle-framework-v2.
+This source is heavily cited in [lifecycle-framework-v2](../meta/lifecycle-framework-v2.md) — Lenny's Shape/Ship/Sync framework and AI disruption ratings are referenced throughout multiple phases. The "Ship" and "Sync" sections are behind the Lenny's Newsletter paywall; key quotes and ratings for those sections were captured from cross-references in the lifecycle-framework-v2.
 
 Rachitsky defined the PM role elsewhere as "deliver business impact by marshaling the resources of your team to identify and solve the most impactful customer problems." This orchestrator framing underlies both the Shape/Ship/Sync model and the disruption insight — AI becomes one of the PM's resources, making the orchestration skill even more important.
 

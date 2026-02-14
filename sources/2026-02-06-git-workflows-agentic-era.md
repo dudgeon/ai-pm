@@ -1,4 +1,5 @@
 ---
+title: "Git Workflows for the Agentic Era: Sharing Context Across Repository Boundaries"
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md

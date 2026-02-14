@@ -1,4 +1,5 @@
 ---
+title: "From Idea to Product in 30 Min Using AI Agents"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

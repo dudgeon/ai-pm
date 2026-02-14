@@ -1,4 +1,5 @@
 ---
+title: "How I AI: Teresa Torres's Claude Code System for Task Management, Automated Research, and 'Lazy' Prompting"
 created: 2026-02-05
 updated: 2026-02-05
 template: templates/source.md

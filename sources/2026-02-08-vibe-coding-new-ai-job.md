@@ -1,4 +1,5 @@
 ---
+title: "Getting Paid to Vibe Code: Inside the New AI-Era Job"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

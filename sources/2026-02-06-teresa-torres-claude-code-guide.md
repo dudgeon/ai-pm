@@ -1,4 +1,5 @@
 ---
+title: "Claude Code: What It Is, How It's Different, and Why Non-Technical People Should Use It"
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md

@@ -1,4 +1,5 @@
 ---
+title: "How to Build AI Product Sense"
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md

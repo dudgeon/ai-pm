@@ -1,4 +1,5 @@
 ---
+title: "Ryan Carson's 3-Step Playbook for Structured AI Development in Cursor"
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md

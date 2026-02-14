@@ -1,4 +1,5 @@
 ---
+title: "Teaching an AI Agent to Think Like You: Iterative Workflow Refinement in Practice"
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md

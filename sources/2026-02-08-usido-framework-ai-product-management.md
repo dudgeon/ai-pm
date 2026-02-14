@@ -1,4 +1,5 @@
 ---
+title: "The U.S.I.D.O. Framework for AI Product Managers"
 created: 2026-02-08
 updated: 2026-02-08
 template: templates/source.md

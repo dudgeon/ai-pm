@@ -1,4 +1,5 @@
 ---
+title: "Managing Agents — New Horizontal Skill Domain"
 created: 2026-02-09
 updated: 2026-02-09
 template: templates/source.md
