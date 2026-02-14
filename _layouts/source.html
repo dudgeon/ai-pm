@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% if page.author or page.source_type or page.status %}
+<div class="source-meta" style="background: #f5f6fa; border-left: 4px solid #7253ed; padding: 1rem 1.25rem; margin-bottom: 2rem; border-radius: 0 4px 4px 0; font-size: 0.9rem; line-height: 1.6;">
+  {% if page.author %}<div><strong>Author:</strong> {{ page.author }}</div>{% endif %}
+  {% if page.source_type %}<div><strong>Type:</strong> {{ page.source_type }}</div>{% endif %}
+  {% if page.source_url %}<div><strong>Source:</strong> <a href="{{ page.source_url }}">{{ page.source_url | truncate: 80 }}</a></div>{% endif %}
+  {% if page.published %}<div><strong>Published:</strong> {{ page.published }}</div>{% endif %}
+  {% if page.status %}
+  <div><strong>Status:</strong>
+    <span style="display: inline-block; padding: 0.1em 0.5em; border-radius: 3px; font-size: 0.85em; font-weight: 600;
+      {% if page.status == 'processed' %}background: #d4edda; color: #155724;
+      {% elsif page.status == 'read' %}background: #cce5ff; color: #004085;
+      {% elsif page.status == 'reading' %}background: #fff3cd; color: #856404;
+      {% else %}background: #e2e3e5; color: #383d41;{% endif %}">{{ page.status }}</span>
+  </div>
+  {% endif %}
+  {% if page.tags %}<div><strong>Tags:</strong> {{ page.tags | join: ", " }}</div>{% endif %}
+</div>
+{% endif %}
+
+{{ content }}

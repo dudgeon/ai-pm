@@ -1,0 +1,15 @@
+// Tables: tighter for the source registry
+.main-content table {
+  font-size: 0.85rem;
+}
+
+// Blockquotes used for key quotes
+blockquote {
+  border-left-color: #7253ed;
+}
+
+// Metadata cards
+.source-meta a,
+.knowledge-meta a {
+  word-break: break-all;
+}

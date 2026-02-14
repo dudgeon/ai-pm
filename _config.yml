@@ -1,0 +1,90 @@
+title: AI Product Craft
+description: >-
+  A knowledge base for AI-augmented product management — how PMs use AI tools
+  effectively and how product organizations adapt to AI-native ways of working.
+url: "https://ai-product-craft.com"
+baseurl: ""
+
+theme: just-the-docs
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+# Include underscore-prefixed files
+include:
+  - _index.md
+
+# Exclude build artifacts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# Edit link
+gh_edit_link: true
+gh_edit_link_text: "View source on GitHub"
+gh_edit_repository: "https://github.com/dudgeon/ai-product-craft"
+gh_edit_branch: "main"
+gh_edit_view_mode: "blob"
+
+# Navigation and layout defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      nav_exclude: true
+  - scope:
+      path: "README.md"
+    values:
+      permalink: /
+      nav_exclude: false
+      nav_order: 1
+      title: "Home"
+  - scope:
+      path: "sources/README.md"
+    values:
+      permalink: /sources/
+      nav_exclude: false
+      nav_order: 2
+      title: "Sources"
+  - scope:
+      path: "sources-unread.md"
+    values:
+      permalink: /sources/unread/
+      nav_exclude: false
+      nav_order: 3
+      title: "Sources: Unread"
+  - scope:
+      path: "knowledge-base/README.md"
+    values:
+      permalink: /knowledge-base/
+      nav_exclude: false
+      nav_order: 4
+      title: "Knowledge Map"
+  - scope:
+      path: "sources"
+    values:
+      layout: "source"
+  - scope:
+      path: "knowledge-base/product-lifecycle"
+    values:
+      layout: "knowledge"
+  - scope:
+      path: "knowledge-base/horizontal"
+    values:
+      layout: "knowledge"
+  - scope:
+      path: "knowledge-base/ai-adoption"
+    values:
+      layout: "knowledge"

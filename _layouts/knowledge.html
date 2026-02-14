@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.entry_type or page.status or page.domain %}
+<div class="knowledge-meta" style="background: #f0f7f0; border-left: 4px solid #2ea44f; padding: 1rem 1.25rem; margin-bottom: 2rem; border-radius: 0 4px 4px 0; font-size: 0.9rem; line-height: 1.6;">
+  {% if page.entry_type %}
+  <div><strong>Type:</strong>
+    <span style="display: inline-block; padding: 0.1em 0.5em; border-radius: 3px; font-size: 0.85em; font-weight: 600; background: #e1e4e8; color: #24292e;">{{ page.entry_type }}</span>
+  </div>
+  {% endif %}
+  {% if page.status %}
+  <div><strong>Status:</strong>
+    <span style="display: inline-block; padding: 0.1em 0.5em; border-radius: 3px; font-size: 0.85em; font-weight: 600;
+      {% if page.status == 'canonical' %}background: #d4edda; color: #155724;
+      {% elsif page.status == 'solid' %}background: #cce5ff; color: #004085;
+      {% else %}background: #fff3cd; color: #856404;{% endif %}">{{ page.status }}</span>
+  </div>
+  {% endif %}
+  {% if page.domain %}<div><strong>Domain:</strong> {{ page.domain }}</div>{% endif %}
+  {% if page.tags %}<div><strong>Tags:</strong> {{ page.tags | join: ", " }}</div>{% endif %}
+  {% if page.updated %}<div><strong>Last updated:</strong> {{ page.updated }}</div>{% endif %}
+</div>
+{% endif %}
+
+{{ content }}
