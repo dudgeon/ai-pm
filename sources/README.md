@@ -55,6 +55,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) | OpenAI | article | 2026-02-13 | — |
 | unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
 | processed | [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) | Claire Vo (ChatPRD) | article | 2026-02-14 | [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) |
+| read | [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) | @mernit | article | 2026-02-14 | — |
 
 ---
 
@@ -85,6 +86,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 *None yet.*
 
 ### Read (Awaiting Processing)
+- [2026-02-14 Mernit Openclaw Filesystem as State](2026-02-14-mernit-openclaw-filesystem-as-state.md) — Openclaw's architecture reduces to filesystem-as-state + Claude-as-orchestrator; law firm example maps unix permissions to org governance; enterprise data silos are the barrier agents solve (@mernit, X)
 - [2026-02-09 Scaling People to Scaling Agents](2026-02-09-scaling-people-to-scaling-agents.md) — Maps CHJ's *Scaling People* management framework to AI agent management: mechanism layer, retro pattern, trust tiers, skill-reliability matrix, delegation cube, attention economics (organic)
 - [2026-02-08 Getting Paid to Vibe Code](2026-02-08-vibe-coding-new-ai-job.md) — Professional vibe coder at Lovable: PRD/markdown systems, 4x4 debugging, parallel prototyping, design taste as critical skill (Lenny's Newsletter)
 - [2026-02-06 Spec Driven Development No Code Library](2026-02-06-spec-driven-development-no-code-library.md) — Spec-only library with zero code; when spec-driven dev works vs when traditional code is necessary (Drew Breunig)
@@ -100,9 +102,9 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 ## Stats
 
-- **Total sources**: 27
+- **Total sources**: 28
 - **Unread**: 19
-- **Read (awaiting processing)**: 4
+- **Read (awaiting processing)**: 5
 - **Processed**: 4
 - **Knowledge entries generated**: 15
 
