@@ -20,4 +20,12 @@ document.addEventListener("DOMContentLoaded", function() {
     li.className = h.tagName === "H3" ? "page-toc-h3" : "page-toc-h2";
     var a = document.createElement("a");
     a.href = "#" + h.id;
-    a.textContent = h.textContent.replace(/
+    var text = h.textContent || "";
+    a.textContent = text.replace(/\u00B6/g, "").trim();
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+  toc.appendChild(list);
+  sideNav.appendChild(toc);
+});
+</script>
