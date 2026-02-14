@@ -97,6 +97,7 @@ Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems). Building a
 Filesystem-paired, autonomous agents — lifecycle management, rules, skills, templates. How PMs select, onboard, train, and performance-manage AI agents.
 
 - [Stepwise Task Execution](horizontal/agents/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Meta-Skill Pattern](horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
 
 ## AI Adoption & Change Management
 

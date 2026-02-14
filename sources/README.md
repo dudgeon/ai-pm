@@ -54,6 +54,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) | Geoff Dudgeon | note | 2026-02-09 | — |
 | unread | [2026-02-13 Harness Engineering Leveraging Codex](2026-02-13-harness-engineering-leveraging-codex.md) | OpenAI | article | 2026-02-13 | — |
 | unread | [2026-02-13 Everyone Should Use Claude Code More](2026-02-13-everyone-should-use-claude-code-more.md) | Lenny Rachitsky | newsletter | 2026-02-13 | — |
+| processed | [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) | Claire Vo (ChatPRD) | article | 2026-02-14 | [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) |
 
 ---
 
@@ -93,15 +94,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-07 Ryan Carson Structured AI Development](2026-02-07-ryan-carson-structured-ai-development.md) — Three-file system for PRD, tasks, execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md), [Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md), [Stepwise Task Execution](../knowledge-base/horizontal/agents/stepwise-task-execution.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md), [Deliberate Context Selection](../knowledge-base/horizontal/context/deliberate-context-selection.md)
 - [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md) — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md), [Be 100x More Specific](../knowledge-base/horizontal/prompting/be-100x-more-specific.md), [My Job Your Job Role Delineation](../knowledge-base/horizontal/prompting/my-job-your-job-role-delineation.md), [AI as Writing Coach](../knowledge-base/horizontal/prompting/ai-as-writing-coach.md), [Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md)
 - [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most; Shape/Ship/Sync three-job model with disruption ratings (Lenny's Newsletter) → [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md), [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md), [Sync the People](../knowledge-base/horizontal/context/sync-the-people-ai-disruption.md)
+- [2026-02-14 Claude Skills Explained Reusable AI Agents](2026-02-14-claude-skills-explained-reusable-ai-agents.md) — Three workflows for creating Claude Skills; meta-skill factory pattern (ChatPRD) → [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md)
 
 ---
 
 ## Stats
 
-- **Total sources**: 26
+- **Total sources**: 27
 - **Unread**: 19
 - **Read (awaiting processing)**: 4
-- **Processed**: 3
-- **Knowledge entries generated**: 14
+- **Processed**: 4
+- **Knowledge entries generated**: 15
 
 *Updated: 2026-02-14*
