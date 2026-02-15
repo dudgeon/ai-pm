@@ -60,7 +60,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 31 sources captured, 8 fully processed into 25 knowledge entries. 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Templated AI Runtimes and Software Methodology Evolution domains awaiting source processing to populate.
+Early stage. 31 sources captured, 11 fully processed into 29 knowledge entries. 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, AI Adoption, and Software Methodology. Templated AI Runtimes domain awaiting source processing to populate.
 
 ---
 

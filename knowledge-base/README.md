@@ -42,6 +42,7 @@ Components: Stakeholder Intent Alignment · Success Criteria & Business Case · 
 Components: Persona & Journey Mapping · Prototyping & Risk Reduction · Go-to-Market Planning
 
 - [Shape the Product — AI Disruption Profile](product-lifecycle/shape/shape-the-product-ai-disruption.md) — Determining what to build; most disrupted PM job (🤖🤖🤖), especially strategy/vision (🤖🤖🤖🤖)
+- [Parallel Prototyping for Clarity](product-lifecycle/shape/parallel-prototyping-for-clarity.md) — Start 5 parallel builds with increasing specificity; AI makes prototyping cheap enough to explore broadly before converging
 
 ### Build
 
@@ -108,6 +109,7 @@ Building and managing knowledge agents — lifecycle management, rules, skills, 
 - [Agent as Cross-Tool Workflow Hub](horizontal/agents/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations replaces manual cross-tool workflows; becomes the orchestration layer across disconnected SaaS tools
 - [Agent-Mediated Self-Reflection](horizontal/agents/agent-mediated-self-reflection.md) — Using agents to observe your behavioral patterns (conflict avoidance, intention-action gaps, unregistered learnings) from digital exhaust
 - [Progressive Tool Disclosure](horizontal/agents/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy vs flat exposure)
+- [Structured Context Loading](horizontal/agents/structured-context-loading.md) — Purpose-built files (plans, guidelines, journeys) loaded before each interaction to align agent behavior across sessions
 
 ## AI Adoption & Change Management
 
