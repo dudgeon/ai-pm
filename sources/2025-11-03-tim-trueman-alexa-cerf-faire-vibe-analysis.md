@@ -18,7 +18,7 @@ domain: professional-development
 project: ai-pm
 # taxonomy_inference: horizontal/agents (MCP-workflows); product-lifecycle/measure (kpi-outcome-monitoring, experiment-design-analysis)
 # provenance: bulk-added by Claude from podcast-episode-compilation.md (2026-02-15)
-# rescrape_needed: true — summary is web-search-derived, not from full article text
+# rescrape_needed: true — no matching ChatPRD URL found (searched all 54 hub slugs 2026-02-16); episode may not be on ChatPRD
 ---
 
 # Vibe Analysis: MCPs Revolutionizing Data Analysis Workflows at Faire
