@@ -22,4 +22,4 @@ Future entries might include:
 
 ---
 
-[← Back to Agents](../README.md)
+[← Back to Agents](../)

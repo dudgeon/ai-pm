@@ -53,4 +53,4 @@ The practice of managing AI agents as autonomous participants — deciding what 
 
 ---
 
-[← Back to Knowledge Map](../../README.md)
+[← Back to Knowledge Map](../../)

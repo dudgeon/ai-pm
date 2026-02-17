@@ -20,4 +20,4 @@ Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Proj
 
 ---
 
-[← Back to Knowledge Map](../../README.md)
+[← Back to Knowledge Map](../../)

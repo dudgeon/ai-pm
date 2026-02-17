@@ -151,4 +151,4 @@ How AI transforms the disciplines of PMs' close collaborators (engineering, desi
 
 ---
 
-[← Back to AI PM](../README.md)
+[← Back to AI PM](../)

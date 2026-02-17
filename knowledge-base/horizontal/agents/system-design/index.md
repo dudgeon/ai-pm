@@ -25,4 +25,4 @@ Patterns, techniques, and mental models for designing and configuring agent syst
 
 ---
 
-[← Back to Agents](../README.md)
+[← Back to Agents](../)

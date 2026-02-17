@@ -21,4 +21,4 @@ Making non-code knowledge discoverable and usable to agents and their human cowo
 
 ---
 
-[← Back to Knowledge Map](../../README.md)
+[← Back to Knowledge Map](../../)

@@ -20,4 +20,4 @@ The core question: **Given that I've decided to delegate, how do I communicate i
 
 ---
 
-[← Back to Managing Agents](../README.md)
+[← Back to Managing Agents](../)

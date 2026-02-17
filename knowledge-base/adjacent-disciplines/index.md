@@ -27,4 +27,4 @@ PMs occupy a unique position in the AI adoption landscape of their organizations
 
 ---
 
-[← Back to Knowledge Map](../README.md)
+[← Back to Knowledge Map](../)

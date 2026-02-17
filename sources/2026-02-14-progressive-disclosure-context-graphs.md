@@ -255,7 +255,7 @@ Your system's main retrieval challenge right now is more likely **progressive di
        path: domains/people/friend.md
      - type: project
        name: "brainstem"
-       path: domains/projects/brainstem/README.md
+       path: domains/projects/brainstem/
    ```
    This creates a queryable relationship layer without a graph database. An agent can `grep -r "related_entities" --include="*.md"` to build a relationship map from frontmatter alone.
 

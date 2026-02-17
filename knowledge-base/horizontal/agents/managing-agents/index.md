@@ -48,4 +48,4 @@ Choosing which agents/tools for which roles, matching capability to need, initia
 
 ---
 
-[← Back to Agents](../README.md)
+[← Back to Agents](../)

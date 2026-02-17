@@ -56,4 +56,4 @@ The risk is over-indexing on one axis. Floor-only strategies create a veneer of 
 - [Scale Manager Expertise With AI](scale-manager-expertise-with-ai.md) — Raising the floor: packaging expert judgment into AI tools others can use
 - [Reverse Engineer Judgment Into AI](reverse-engineer-judgment-into-ai.md) — The mechanism for converting ceiling expertise into floor tools
 - [Tool Identity as Adoption Gate](tool-identity-as-adoption-gate.md) — Floor tools fail when identity/positioning filters out intended users
-- [Adjacent Disciplines — Adoption Dynamics](../adjacent-disciplines/README.md#adoption-dynamics) — The floor/ceiling dynamic plays out differently across collaborator disciplines
+- [Adjacent Disciplines — Adoption Dynamics](../adjacent-disciplines/#adoption-dynamics) — The floor/ceiling dynamic plays out differently across collaborator disciplines

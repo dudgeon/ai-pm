@@ -20,4 +20,4 @@ The core question: **Given this task, is the expected time savings from AI deleg
 
 ---
 
-[← Back to Managing Agents](../README.md)
+[← Back to Managing Agents](../)

@@ -50,7 +50,7 @@ Knowledge entries are ideas extracted from sources and organized by domain. Entr
 **Entry types**: `technique` · `mental-model` · `insight`
 **Entry status**: `draft` → `solid` (multiple sources) → `canonical` (vetted, teachable)
 
-Browse all entries in the [Knowledge Map](knowledge-base/README.md).
+Browse all entries in the [Knowledge Map](knowledge-base/).
 
 ## Taxonomy & Meta
 

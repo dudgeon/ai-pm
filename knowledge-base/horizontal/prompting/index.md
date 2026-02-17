@@ -22,4 +22,4 @@ Portable techniques for crafting effective instructions — works in any chat wi
 
 ---
 
-[← Back to Knowledge Map](../../README.md)
+[← Back to Knowledge Map](../../)
