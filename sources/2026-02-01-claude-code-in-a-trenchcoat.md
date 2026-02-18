@@ -5,7 +5,7 @@ updated: 2026-02-15
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm, claude-added]
-status: unread
+status: irrelevant
 source_type: article
 source_url: "https://every.to/context-window/claude-code-in-a-trenchcoat"
 archive_url: ""
