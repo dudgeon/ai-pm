@@ -1,11 +1,12 @@
 ---
 title: "Introducing Context Repositories: Git-based Memory for Coding Agents | Letta"
 created: 2026-02-16
-updated: 2026-02-16
+updated: 2026-02-18
+processed: 2026-02-18
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm]
-status: read
+status: processed
 source_type: article
 source_url: "https://www.letta.com/blog/context-repositories"
 archive_url: ""
@@ -28,7 +29,14 @@ project: ai-pm
 
 Letta rethinks agent memory by treating it as a git-backed filesystem rather than a set of tool-mediated memory operations. Agents clone their context repository locally, navigate and edit files using standard terminal capabilities, and commit changes with version history. The architecture enables concurrent multi-agent memory writes via git worktrees and introduces built-in memory skills (initialization, reflection, defragmentation) that agents run autonomously.
 
-## Key Ideas Extracted
+## Ideas Extracted to Knowledge Base
+
+- [Agent-Self-Managed Progressive Disclosure](../knowledge-base/horizontal/context/agent-self-managed-progressive-disclosure.md) — Agents actively reorganize their own memory filesystem (filetree as navigation, frontmatter as preview, system/ for always-loaded) `horizontal/context`
+- [Agent Memory Lifecycle Skills](../knowledge-base/horizontal/agents/system-design/skills/agent-memory-lifecycle-skills.md) — Initialize, Reflect, Defragment as the three built-in skills for agent memory health; 15–25 file heuristic `horizontal/agents/system-design/skills`
+- [Git-Versioned Agent Memory](../knowledge-base/horizontal/agents/system-design/architecture/git-versioned-agent-memory.md) — Every memory change is a commit with message; audit trail, rollback, temporal narrative of agent learning `horizontal/agents/system-design/architecture`
+- [Concurrent Agent Memory via Git Worktrees](../knowledge-base/horizontal/agents/system-design/architecture/concurrent-agent-memory-via-worktrees.md) — Multiple subagents write to shared memory concurrently via isolated git worktrees; merge via standard git operations `horizontal/agents/system-design/architecture`
+
+## Key Ideas Extracted (Raw Notes)
 
 - **Virtual Memory as Local Filesystems**: Files are universal primitives that agents already know how to manipulate. Instead of custom memory APIs, agents use standard filesystem operations (read, write, navigate) on a cloned git repo. Follows Unix philosophy — simple composable tools over specialized interfaces.
 - **Progressive Memory Disclosure**: The filetree itself serves as a navigation signal in the system prompt. Frontmatter descriptions on files let agents decide what to load without reading full contents. A `system/` directory holds always-loaded context. Agents manage their own disclosure rather than relying on retrieval systems.

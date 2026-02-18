@@ -194,7 +194,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-12 Compound Engineering Every Codes Agents v2](2026-02-12-compound-engineering-every-codes-agents-v2.md) | Kieran Klaassen, Dan Shipper | article | 2026-02-15 | — |
 | unread | [2026-02-11 Inside OpenAI's Agentic Browser, Atlas](2026-02-11-inside-openai-agentic-browser-atlas.md) | Ben Goodger, Darin Fisher | podcast | 2026-02-17 | — |
 | unread | [2026-02-12 How Claude Code Is Transforming Finance—Without Turning You Into a Coder](2026-02-12-claude-code-transforming-finance.md) | Brooker Belcourt | article | 2026-02-17 | — |
-| read | [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) | Letta | article | 2026-02-14 | — |
+| processed | [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) | Letta | article | 2026-02-14 | 4 |
+| processed | [2026-02-18 How to Do AI Analysis You Can Actually Trust](2026-02-18-ai-analysis-you-can-actually-trust.md) | Caitlin Sullivan | newsletter | 2026-02-18 | 7 |
 | unread | [2026-02-12 Vibe Check Codex App vs Claude Code](2026-02-12-vibe-check-codex-app-vs-claude-code.md) | Katie Parrott | article | 2026-02-15 | — |
 | processed | [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) | Nader Dabit (@dabit3) | article | 2026-02-14 | [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md) |
 | unread | [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) | Pedro (@sillydarket) | article | 2026-02-14 | — |
@@ -386,7 +387,6 @@ Master index of all source material. Sortable by status, type, author, and date.
 *None yet.*
 
 ### Read (Awaiting Processing)
-- [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) — Letta blog post introducing Context Repositories: a git-based memory system for coding agents that replaces MemGPT-style approaches
 - [2026-02-17 How to Build Agent-native: Lessons From Four Apps](2026-02-17-how-to-build-agent-native-lessons-from-four-apps.md) — Four Every apps demonstrate agent-native architecture: minimal toolset (read/write/list), emergent behavior, safety constraints in tools not prompts, CLI sandbox retrofitting path (Every / Katie Parrott)
 
 ### Processed
@@ -402,15 +402,17 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-08 Getting Paid to Vibe Code](2026-02-08-vibe-coding-new-ai-job.md) — Professional vibe coder at Lovable: parallel prototyping, structured context loading, 80/20 planning ratio, rules files as knowledge capture (Lenny's Newsletter) → [Parallel Prototyping for Clarity](../knowledge-base/product-lifecycle/shape/parallel-prototyping-for-clarity.md), [Structured Context Loading](../knowledge-base/horizontal/agents/system-design/instruction-design/structured-context-loading.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md) (enriched), [Deliberate Context Selection](../knowledge-base/horizontal/context/deliberate-context-selection.md) (enriched), [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md) (enriched)
 - [2026-02-14 Progressive Disclosure & Context Graphs](2026-02-14-progressive-disclosure-context-graphs.md) — 3-layer retrieval pattern, filesystem-as-retrieval-architecture, progressive tool disclosure, retrieval infrastructure graduation path (note) → [Three-Layer Context Disclosure](../knowledge-base/horizontal/context/three-layer-context-disclosure.md), [Filesystem as Retrieval Architecture](../knowledge-base/horizontal/context/filesystem-as-retrieval-architecture.md), [Progressive Tool Disclosure](../knowledge-base/horizontal/agents/system-design/supervision/progressive-tool-disclosure.md), [Retrieval Infrastructure Graduation](../knowledge-base/ai-adoption/retrieval-infrastructure-graduation.md)
 - [2026-01-27 Management as AI Superpower](2026-01-27-ethan-mollick-management-as-ai-superpower.md) — Three-variable delegation framework, delegation documentation as AI prompts, talent-to-direction scarcity shift (One Useful Thing) → [Delegation Decision Framework](../knowledge-base/horizontal/agents/managing-agents/task-fit/delegation-decision-framework.md), [Delegation Documentation as Agent Prompts](../knowledge-base/horizontal/agents/managing-agents/delegation/delegation-documentation-as-prompts.md), [Talent-to-Direction Scarcity Shift](../knowledge-base/horizontal/agents/managing-agents/talent-to-direction-scarcity-shift.md)
+- [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) — Git-backed agent memory as filesystem: agent-self-managed progressive disclosure, initialize/reflect/defragment lifecycle skills, git-versioned commits, concurrent worktrees for memory swarms (Letta) → [Agent-Self-Managed Progressive Disclosure](../knowledge-base/horizontal/context/agent-self-managed-progressive-disclosure.md), [Agent Memory Lifecycle Skills](../knowledge-base/horizontal/agents/system-design/skills/agent-memory-lifecycle-skills.md), [Git-Versioned Agent Memory](../knowledge-base/horizontal/agents/system-design/architecture/git-versioned-agent-memory.md), [Concurrent Agent Memory via Git Worktrees](../knowledge-base/horizontal/agents/system-design/architecture/concurrent-agent-memory-via-worktrees.md)
+- [2026-02-18 How to Do AI Analysis You Can Actually Trust](2026-02-18-ai-analysis-you-can-actually-trust.md) — Four failure modes of AI qualitative analysis with fixes: quote selection rules, quote verification pass, decision-anchored context loading, few-shot calibration, multi-pass verification; LLMs generate not retrieve; model fit for analysis (Caitlin Sullivan / Lenny's Newsletter) → [Quote Selection Rules](../knowledge-base/product-lifecycle/discover/quote-selection-rules-for-ai-analysis.md), [Quote Verification Pass](../knowledge-base/product-lifecycle/discover/quote-verification-pass.md), [Decision-Anchored Analysis Context](../knowledge-base/product-lifecycle/discover/decision-anchored-analysis-context.md), [Few-Shot Calibration for Analysis](../knowledge-base/product-lifecycle/discover/few-shot-calibration-for-analysis.md), [AI Analysis Multi-Pass Verification](../knowledge-base/product-lifecycle/discover/ai-analysis-multi-pass-verification.md), [LLMs Generate Not Retrieve](../knowledge-base/horizontal/prompting/llms-generate-not-retrieve.md), [Model Fit for Qualitative Analysis](../knowledge-base/horizontal/agents/managing-agents/selection/model-fit-for-qualitative-analysis.md)
 
 ---
 
 ## Stats
 
-- **Total sources**: 182
-- **Unread**: 168
-- **Read (awaiting processing)**: 2
-- **Processed**: 12
-- **Knowledge entries generated**: 32
+- **Total sources**: 183
+- **Unread**: 166
+- **Read (awaiting processing)**: 1
+- **Processed**: 14
+- **Knowledge entries generated**: 43
 
-*Updated: 2026-02-17*
+*Updated: 2026-02-18*

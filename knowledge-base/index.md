@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-16
+updated: 2026-02-18
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -27,7 +27,11 @@ Six phases. Entries sit flat within phase folders; the `component` frontmatter f
 *What problems are worth solving?*
 Components: Problem Signal Detection · Market & Competitive Intelligence · Opportunity Prioritization · Problem Brief
 
-*No entries yet.*
+- [Quote Selection Rules for AI Analysis](product-lifecycle/discover/quote-selection-rules-for-ai-analysis.md) — Define explicit quote rules before AI extraction to prevent generation of plausible-sounding paraphrases `discover/problem-signal-detection`
+- [Quote Verification Pass](product-lifecycle/discover/quote-verification-pass.md) — Dedicated follow-up prompt to confirm each extracted quote exists verbatim in the source `discover/problem-signal-detection`
+- [Decision-Anchored Analysis Context](product-lifecycle/discover/decision-anchored-analysis-context.md) — 4-component context loading (project context, business goal, product context, participant overview) to anchor AI analysis to your specific decision `discover/problem-signal-detection`
+- [Few-Shot Calibration for Analysis Classification](product-lifecycle/discover/few-shot-calibration-for-analysis.md) — Labeled examples with rationale for each category level; examples teach, descriptions don't `discover/problem-signal-detection`
+- [AI Analysis Multi-Pass Verification](product-lifecycle/discover/ai-analysis-multi-pass-verification.md) — Deliberate second pass targeting quote errors, within-participant contradictions, and thin evidence `discover/problem-signal-detection`
 
 ### Frame
 
@@ -81,6 +85,7 @@ Portable techniques for crafting effective instructions — works in any chat wi
 - [Be 100x More Specific](horizontal/prompting/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
 - [My Job Your Job Role Delineation](horizontal/prompting/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
 - [AI as Writing Coach](horizontal/prompting/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
+- [LLMs Generate, Not Retrieve](horizontal/prompting/llms-generate-not-retrieve.md) — Root cause mental model: LLMs produce statistically plausible text, not retrieved text; explains hallucinated quotes, fabricated citations, confident errors
 
 ### [Context & Knowledge Management](horizontal/context/) — Knowledge Infrastructure
 
@@ -91,6 +96,7 @@ Making non-code knowledge discoverable and usable to agents and their human cowo
 - [Three-Layer Context Disclosure](horizontal/context/three-layer-context-disclosure.md) — Index → summary → full content: the converging pattern for efficient agent retrieval (~10x token savings)
 - [Filesystem as Retrieval Architecture](horizontal/context/filesystem-as-retrieval-architecture.md) — Directory hierarchy as index, frontmatter as metadata, git as temporal layer — a legitimate retrieval system, not a stopgap
 - [Repositories as Context Boundaries](horizontal/context/repositories-as-context-boundaries.md) — Repos shift from code isolation to context containers; git subtree/submodules as cross-repo context distribution; agents absorb submodule ceremony
+- [Agent-Self-Managed Progressive Disclosure](horizontal/context/agent-self-managed-progressive-disclosure.md) — Agents actively reorganize their own memory filesystem: filetree as navigation signal, frontmatter as preview, system/ for always-loaded; dynamic not static disclosure
 
 ### [Templated AI Runtimes](horizontal/runtimes/) — Packaged AI Tools
 
@@ -110,6 +116,7 @@ Building and managing knowledge agents — lifecycle management, rules, skills, 
 
 **[Skills](horizontal/agents/system-design/skills/)** — Discrete agent capabilities
 - [Meta-Skill Pattern](horizontal/agents/system-design/skills/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
+- [Agent Memory Lifecycle Skills](horizontal/agents/system-design/skills/agent-memory-lifecycle-skills.md) — Initialize (bootstrap from history), Reflect (sleep-time synthesis), Defragment (reorganize to 15–25 files) as the three built-in skills for maintaining agent memory health
 
 **[Supervision](horizontal/agents/system-design/supervision/)** — Human governance of agent execution
 - [Stepwise Task Execution](horizontal/agents/system-design/supervision/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
@@ -119,6 +126,8 @@ Building and managing knowledge agents — lifecycle management, rules, skills, 
 **[Architecture](horizontal/agents/system-design/architecture/)** — Structural foundations
 - [Filesystem as Agent State](horizontal/agents/system-design/architecture/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem
 - [Agent as Cross-Tool Workflow Hub](horizontal/agents/system-design/architecture/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations as orchestration layer across disconnected SaaS tools
+- [Git-Versioned Agent Memory](horizontal/agents/system-design/architecture/git-versioned-agent-memory.md) — Every memory change is a commit with message; audit trail, rollback, temporal narrative of agent learning; extends filesystem-as-retrieval with a temporal layer
+- [Concurrent Agent Memory via Git Worktrees](horizontal/agents/system-design/architecture/concurrent-agent-memory-via-worktrees.md) — Multiple subagents write to shared memory simultaneously via isolated git worktrees; enables memory swarms for initialization and parallel learning
 
 #### [Harnesses](horizontal/agents/harnesses/) — Platform-Specific Knowledge
 
@@ -135,6 +144,9 @@ The practice of managing AI agents as autonomous participants. Distinct from sys
 
 **Delegation Craft**:
 - [Delegation Documentation as Agent Prompts](horizontal/agents/managing-agents/delegation/delegation-documentation-as-prompts.md) — Every field's delegation docs (PRDs, shot lists, Five Paragraph Orders) are AI prompts; common elements pattern
+
+**Agent Selection & Onboarding**:
+- [Model Fit for Qualitative Analysis Tasks](horizontal/agents/managing-agents/selection/model-fit-for-qualitative-analysis.md) — Claude (depth/breadth), Gemini (evidenced themes), ChatGPT (stakeholder framing) as distinct strengths for analysis work; technique quality matters more than model choice
 
 ## AI Adoption & Change Management
 
