@@ -1,3 +1,38 @@
+<style>
+.copy-page-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.copy-page-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  color: #5c5962;
+  background: #f5f6fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+}
+.copy-page-btn:hover {
+  color: #7253ed;
+  background: #fff;
+  border-color: #7253ed;
+}
+.copy-page-btn.copied {
+  color: #155724;
+  background: #d4edda;
+  border-color: #c3e6cb;
+}
+.copy-page-btn svg {
+  flex-shrink: 0;
+}
+</style>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   if (document.getElementById("page-toc-nav")) return;
@@ -28,4 +63,88 @@ document.addEventListener("DOMContentLoaded", function() {
   toc.appendChild(list);
   sideNav.appendChild(toc);
 });
+</script>
+
+<script>
+(function() {
+  var ICON_CLIPBOARD = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>';
+  var ICON_CHECK = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+  var turndownReady = null;
+
+  function loadTurndown() {
+    if (turndownReady) return turndownReady;
+    turndownReady = new Promise(function(resolve, reject) {
+      var core = document.createElement("script");
+      core.src = "https://cdnjs.cloudflare.com/ajax/libs/turndown/7.2.0/turndown.js";
+      core.onload = function() {
+        var gfm = document.createElement("script");
+        gfm.src = "https://cdnjs.cloudflare.com/ajax/libs/turndown-plugin-gfm/1.0.2/turndown-plugin-gfm.js";
+        gfm.onload = function() { resolve(); };
+        gfm.onerror = function() { resolve(); }; // works without GFM plugin
+        document.head.appendChild(gfm);
+      };
+      core.onerror = reject;
+      document.head.appendChild(core);
+    });
+    return turndownReady;
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var mainContent = document.querySelector(".main-content");
+    if (!mainContent) return;
+    if (document.querySelector(".copy-page-btn")) return;
+
+    var btn = document.createElement("button");
+    btn.className = "copy-page-btn";
+    btn.setAttribute("aria-label", "Copy page as Markdown");
+    btn.innerHTML = ICON_CLIPBOARD + " Copy as Markdown";
+
+    var wrapper = document.createElement("div");
+    wrapper.className = "copy-page-wrapper";
+    wrapper.appendChild(btn);
+    mainContent.insertBefore(wrapper, mainContent.firstChild);
+
+    btn.addEventListener("click", function() {
+      loadTurndown()
+        .then(function() {
+          var td = new TurndownService({
+            headingStyle: "atx",
+            codeBlockStyle: "fenced",
+            bulletListMarker: "-"
+          });
+          if (window.turndownPluginGfm) {
+            td.use(turndownPluginGfm.gfm);
+          }
+
+          // Clone content and strip non-content elements
+          var clone = mainContent.cloneNode(true);
+          clone.querySelectorAll(
+            ".copy-page-wrapper, a.anchor-heading, .edit-this-page"
+          ).forEach(function(el) { el.remove(); });
+
+          var markdown = td.turndown(clone.innerHTML);
+          var source = "Source: " + window.location.href + "\n\n";
+          return navigator.clipboard.writeText(source + markdown);
+        })
+        .then(function() {
+          showCopied(btn);
+        })
+        .catch(function() {
+          // Fallback: copy visible text with source link
+          var source = "Source: " + window.location.href + "\n\n";
+          navigator.clipboard.writeText(source + mainContent.innerText)
+            .then(function() { showCopied(btn); });
+        });
+    });
+
+    function showCopied(button) {
+      button.classList.add("copied");
+      button.innerHTML = ICON_CHECK + " Copied!";
+      setTimeout(function() {
+        button.classList.remove("copied");
+        button.innerHTML = ICON_CLIPBOARD + " Copy as Markdown";
+      }, 2000);
+    }
+  });
+})();
 </script>
