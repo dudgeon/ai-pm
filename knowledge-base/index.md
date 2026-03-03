@@ -168,6 +168,9 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Intentional Understaffing for AI-First Teams](ai-adoption/intentional-understaffing-ai-first-teams.md) — Deliberately staff lightly to force AI to carry more work; constraint drives creative AI adoption, not just faster typing
 - [Delay Token Cost Optimization](ai-adoption/delay-token-cost-optimization.md) — Give teams unlimited tokens during experimentation; token cost < salary cost at small scale; optimize only after proven scale
 - [Generalists Outperform Specialists in AI Era](ai-adoption/generalists-outperform-specialists-ai-era.md) — AI compresses deep execution; curious cross-discipline generalists capture the highest rewards as AI handles more of the specialist's edge
+- [Follow the Drudgery](ai-adoption/follow-the-drudgery.md) — Roles most transformed by AI are those with the most tedious busywork, not the most complex work; engineers want AI for docs/tests/review, not the hard stuff
+- [AI Production-Thinking Spectrum](ai-adoption/ai-production-thinking-spectrum.md) — AI use ranges from production (PRDs, prototypes) to thinking (strategy, ideation); founders at the thinking end report highest satisfaction; maturity = moving upstream
+- [AI Productivity Review Tax](ai-adoption/ai-productivity-review-tax.md) — AI saves generation time but creates mandatory review work; 92% report downsides; "good enough to edit beats perfect from scratch"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-23
+updated: 2026-02-27
 tags: [project, ai-pm, product-management, learning]
 status: active
 domain: professional-development
@@ -61,7 +61,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 31 sources captured, 12 fully processed into 31 knowledge entries. 18 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, AI Adoption, Adjacent Disciplines, and Software Methodology. Templated AI Runtimes domain awaiting source processing to populate.
+Early stage. 34 sources captured, 13 fully processed into 34 knowledge entries. 20 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, AI Adoption, Adjacent Disciplines, and Software Methodology. Templated AI Runtimes domain awaiting source processing to populate.
 
 ---
 

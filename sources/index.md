@@ -28,6 +28,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 | Status | Source | Author | Type | Discovered | Ideas Extracted |
 |--------|--------|--------|------|------------|-----------------|
+| processed | [2026-02-27 AI Tools Are Overdelivering: Large-Scale AI Productivity Survey](2026-02-27-ai-tools-overdelivering-large-scale-productivity-survey.md) | Lenny Rachitsky, Noam Segal | newsletter | 2026-02-27 | [Follow the Drudgery](../knowledge-base/ai-adoption/follow-the-drudgery.md), [AI Production-Thinking Spectrum](../knowledge-base/ai-adoption/ai-production-thinking-spectrum.md), [AI Productivity Review Tax](../knowledge-base/ai-adoption/ai-productivity-review-tax.md), [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md) (enriched) |
 | processed | [2026-01-27 Management as AI Superpower](2026-01-27-ethan-mollick-management-as-ai-superpower.md) | Ethan Mollick | newsletter | 2026-02-14 | [Delegation Decision Framework](../knowledge-base/horizontal/agents/managing-agents/task-fit/delegation-decision-framework.md), [Delegation Documentation as Agent Prompts](../knowledge-base/horizontal/agents/managing-agents/delegation/delegation-documentation-as-prompts.md), [Talent-to-Direction Scarcity Shift](../knowledge-base/horizontal/agents/managing-agents/talent-to-direction-scarcity-shift.md) |
 | unread | [2023-02-05 Marily Nika AI and Product Management](2023-02-05-marily-nika-ai-and-product-management.md) | Marily Nika | podcast | 2026-02-15 | — |
 | unread | [2024-07-09 How Close AI Replacing Product Managers](2024-07-09-how-close-ai-replacing-product-managers.md) | Mike Taylor | newsletter | 2026-02-15 | — |
@@ -212,6 +213,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | read | [2026-02-17 How to Build Agent-native: Lessons From Four Apps](2026-02-17-how-to-build-agent-native-lessons-from-four-apps.md) | Katie Parrott | article | 2026-02-17 | — |
 | unread | [2026 Agent Native Architectures Guide](2026-agent-native-architectures-guide.md) | Dan Shipper, Claude | guide | 2026-02-15 | — |
 | unread | [2026 Compound Engineering Guide](2026-compound-engineering-guide.md) | Kieran Klaassen | guide | 2026-02-15 | — |
+| unread | [2026-02-18 Measuring AI Agent Autonomy in Practice](2026-02-18-anthropic-measuring-agent-autonomy.md) | Miles McCain, Thomas Millar, Saffron Huang et al. | article | 2026-02-23 | — |
+| unread | [2026-02-23 Anthropic AI Fluency Index](2026-02-23-anthropic-ai-fluency-index.md) | Kristen Swanson, Drew Bent, Saffron Huang et al. | article | 2026-02-23 | — |
 
 ---
 

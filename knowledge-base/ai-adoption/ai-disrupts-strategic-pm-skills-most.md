@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-08
+updated: 2026-02-27
 template: templates/knowledge-entry.md
 template_version: 3
 tags: [knowledge, ai-pm]
@@ -36,6 +36,14 @@ Simultaneously, invest in developing soft skills as a conscious differentiator �
 **What this source adds**: The foundational articulation of this counterintuitive insight, backed by a granular 5-point disruption rating across PM sub-tasks. Rachitsky uses AlphaGo's Move 37 as evidence that AI discovers strategic patterns humans miss, and cites Jensen Huang and Sam Altman as convergent signals that historically high-level skills are being solved by AI.
 **Links**: [Original](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management) | [Archive](../../sources/2026-02-08-how-ai-will-impact-product-management.md)
 
+### From: [AI Tools Are Overdelivering: Large-Scale AI Productivity Survey](../../sources/2026-02-27-ai-tools-overdelivering-large-scale-productivity-survey.md)
+**Key quote**: "PMs have cracked how to use AI for the 'last mile' of getting ideas out of their head, but they still have a big opportunity to embrace AI for the upstream work of figuring out what to build."
+**Attribution**: Lenny Rachitsky, Noam Segal
+**What this source adds**: Hard survey data (1,750 respondents) validating the disruption gap with demand numbers. PMs' current AI use is dominated by production tasks (PRDs 21.5%, prototypes 19.8%, comms 18.5%) while strategic/discovery work lags far behind (user research 4.7%, roadmap ideas 1.1%). But the demand gap tells the story: user research shows +27.2pp demand gap, prototyping +24.6pp — PMs *want* to move upstream but haven't cracked it yet. This empirically confirms that the strategic disruption potential Rachitsky identified is real but largely unrealized.
+**Links**: [Original](https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results) | [Archive](../../sources/2026-02-27-ai-tools-overdelivering-large-scale-productivity-survey.md)
+
 ## Related
 
 - [Shape/Ship/Sync PM Work Model](../../sources/2026-02-08-how-ai-will-impact-product-management.md) — The organizational framework within which this disruption analysis operates
+- [AI Production-Thinking Spectrum](ai-production-thinking-spectrum.md) — The spectrum model that explains *why* PMs lag: they're stuck at the production end, while founders (who use AI to think) report highest satisfaction
+- [Follow the Drudgery](follow-the-drudgery.md) — Complementary tension: strategic skills have highest disruption *potential*, but drudgery elimination has highest adoption *pull*
